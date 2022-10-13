@@ -1,0 +1,42 @@
+.heroWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 130vh;
+  padding: 12rem 0;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+.subTitle {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.photoContainer {
+  width: 340px;
+  height: 340px;
+  margin: 2rem auto;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-color: #2e3445;
+  border-radius: 50%;
+}
+
+.description {
+  max-width: 30rem;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
