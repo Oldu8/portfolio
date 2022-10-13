@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(217, 196, 196);
+}
