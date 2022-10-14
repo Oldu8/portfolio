@@ -1,0 +1,37 @@
+.card {
+  max-width: 45rem;
+  margin-right: 3rem;
+  position: relative;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid white;
+  &:hover {
+    background-color: #dbe8d4;
+    color: #73cca8;
+  }
+}
+
+.img {
+  width: 350px;
+  align-self: center;
+}
+
+.title {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2rem;
+  padding: 0.5rem 0;
+}
+
+// .tooltip {
+//   position: absolute;
+//   top: 0%;
+//   left: 0%;
+//   opacity: 1;
+//   background-color: antiquewhite;
+//   color: #73cca8;
+// }

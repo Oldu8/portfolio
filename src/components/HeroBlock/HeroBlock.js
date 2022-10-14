@@ -16,8 +16,10 @@ function HeroBlock() {
                 <p className={styles.description}>
                     FrontEnd developer, Web Developer, maybe Software Developer -  specializing in creating responsive websites and applications.
                     <br />
+                    Currently living in Ontario, Canada.
                     <br />
-                    I am currently looking for job opportunities to gain new coding experience and continue to be inspired by the world of web development.
+                    <br />
+                    Now I'm looking for job opportunities to gain new coding experience and continue to be inspired by the world of web development.
                 </p>
             </div>
         </section>

@@ -2,6 +2,7 @@ import './App.css';
 import AboutBlock from './components/AboutBlock/AboutBlock';
 import Header from './components/Header/Header';
 import HeroBlock from './components/HeroBlock/HeroBlock';
+import ProjectsBlock from './components/ProjectsBlock/ProjectsBlock';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeroBlock />
       <AboutBlock />
+      <ProjectsBlock />
     </div>
   );
 }
