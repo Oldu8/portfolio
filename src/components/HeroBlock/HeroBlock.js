@@ -4,7 +4,7 @@ import avatar from "../../assets/img/avatar.png"
 
 function HeroBlock() {
     return (
-        <section className={styles.heroWrapper}>
+        <section id='/' className={styles.heroWrapper}>
             <div className={styles.content}>
                 <hgroup className={styles.headers}>
                     <h1 className={styles.title}>Oleh Dudko</h1>
