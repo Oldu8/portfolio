@@ -11,6 +11,41 @@
   padding: 1rem 0;
   border-bottom: 4px solid #73cca8;
 }
+.intro {
+  max-width: 40rem;
+  margin: 2rem auto;
+  position: relative;
+}
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.downloadBtn {
+  position: absolute;
+  font-size: 1.5rem;
+  background-color: inherit;
+  padding: 1rem 2.3rem 1rem 1rem;
+  vertical-align: center;
+  border-radius: 2rem;
+  right: -1rem;
+  bottom: -0.7rem;
+  background-color: #73cca8;
+  color: #222733;
+  border: 0;
+  cursor: pointer;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: 12px;
+    bottom: 20px;
+    background-image: url("../../assets/icons/downloadIcon.svg");
+  }
+}
 
 .paper {
   background-color: #dbe8d4;

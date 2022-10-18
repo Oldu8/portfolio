@@ -8,6 +8,21 @@ function CVBlock() {
                 <h2 className={styles.title}>
                     Curriculum Vitae
                 </h2>
+                <div className={styles.intro}>
+                    <p className={styles.description}>
+                        Worked somewhere, did something, studied somehow
+                        <br />
+                        It was a joke
+                    </p>
+                    <p className={styles.description}>
+                        You can check my CV below or download it in PDF format
+                    </p>
+                    <a target="_blank" href='https://drive.google.com/uc?export=download&id=1vdyixzt31SXWcRZST3mPgyV5QgMLLDih' download='Dudko CV FrontEnd.pdf' >
+                        <button className={styles.downloadBtn}>
+                            CV
+                        </button>
+                    </a>
+                </div>
                 <article className={styles.paper}>
                     <h3 className={styles.cvTitlte}>Oleh Dudko</h3>
                     <h2 className={styles.cvSubTitlte}>Front End Developer</h2>
