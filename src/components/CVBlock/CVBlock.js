@@ -19,7 +19,7 @@ function CVBlock() {
                     </p>
                     <a target="_blank" href='https://drive.google.com/uc?export=download&id=1vdyixzt31SXWcRZST3mPgyV5QgMLLDih' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
-                            CV
+                            Download CV
                         </button>
                     </a>
                 </div>
@@ -100,7 +100,7 @@ function CVBlock() {
                     </div>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Education</h4>
-                        <h5 className={styles.h5Title}>
+                        <h5 className={styles.edTitle}>
                             <strong>Odesa I.I. Mechnikov National University</strong> Bachelor, Management
                         </h5>
                         <span className={styles.period}>2013 - 2019</span>

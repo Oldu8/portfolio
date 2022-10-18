@@ -1,7 +1,11 @@
 .aboutWrapper {
-  width: 40rem;
+  max-width: 40rem;
   text-align: justify;
-  margin: 2rem auto;
+  padding: 5rem 0;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    padding: 3rem 0;
+  }
 }
 
 .title {
@@ -14,6 +18,9 @@
 
 .textBlocks {
   margin: 2rem 0;
+  @media (max-width: 768px) {
+    padding: 0 0.5rem;
+  }
 }
 .text {
   margin-bottom: 2rem;

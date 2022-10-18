@@ -1,5 +1,5 @@
 .footer {
-  width: 40rem;
+  max-width: 40rem;
   text-align: justify;
   margin: 2rem auto;
   position: relative;
@@ -27,4 +27,8 @@
   background-color: #73cca8;
   cursor: pointer;
   transition: all 0.3s linear;
+  @media (max-width: 425px) {
+    bottom: 4rem;
+    right: 10rem;
+  }
 }

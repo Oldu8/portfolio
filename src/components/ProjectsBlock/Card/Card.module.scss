@@ -3,6 +3,9 @@
   height: 400px;
   margin-right: 2rem;
   position: relative;
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 }
 
 .container {

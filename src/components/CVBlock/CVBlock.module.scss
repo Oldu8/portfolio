@@ -1,5 +1,5 @@
 .cvWrapper {
-  width: 40rem;
+  max-width: 40rem;
   text-align: justify;
   margin: 2rem auto;
 }
@@ -15,23 +15,28 @@
   max-width: 40rem;
   margin: 2rem auto;
   position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 .description {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
 }
 
 .downloadBtn {
-  position: absolute;
+  position: relative;
   font-size: 1.5rem;
   background-color: inherit;
   padding: 1rem 2.3rem 1rem 1rem;
   vertical-align: center;
   border-radius: 2rem;
-  right: -1rem;
-  bottom: -0.7rem;
   background-color: #73cca8;
   color: #222733;
   border: 0;
@@ -44,6 +49,8 @@
     right: 12px;
     bottom: 20px;
     background-image: url("../../assets/icons/downloadIcon.svg");
+    @media (max-width: 768px) {
+    }
   }
 }
 
@@ -70,6 +77,10 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   font-weight: 500;
+  @media (max-width: 768px) {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
 }
 
 .blockTitle {
@@ -112,6 +123,9 @@
   font-size: 1.2rem;
   font-weight: 400;
   position: relative;
+  @media (max-width: 425px) {
+    max-width: 60%;
+  }
 }
 .period {
   font-size: 0.8rem;
@@ -128,4 +142,10 @@
   .point {
     margin: 0.5rem 0;
   }
+}
+
+.edTitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: relative;
 }
