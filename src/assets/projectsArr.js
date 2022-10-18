@@ -15,7 +15,7 @@ export const projectsArr = {
             title: 'Driver Licence Test',
             img: DLT,
             techs: 'React, Redux TK, API, MUI',
-            link: ''
+            link: 'https://magnificent-genie-474a7d.netlify.app/'
         },
         {
             title: 'Crypto Portfolio Tracker',
