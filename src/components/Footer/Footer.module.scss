@@ -1,0 +1,30 @@
+.footer {
+  width: 40rem;
+  text-align: justify;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 4px solid #73cca8;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+  font-size: 1.5rem;
+  background-color: inherit;
+  padding: 0.5rem 1rem;
+  vertical-align: center;
+  border-radius: 1.5rem;
+  border: 0;
+  color: #dbe8d4;
+  background-color: #73cca8;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
