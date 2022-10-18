@@ -1,0 +1,96 @@
+.cvWrapper {
+  width: 40rem;
+  text-align: justify;
+  margin: 2rem auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 4px solid #73cca8;
+}
+
+.paper {
+  background-color: #dbe8d4;
+  color: #222733;
+  padding: 0.5rem 1rem;
+}
+
+.cvTitlte {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.cvSubTitlte {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.blockTitle {
+  color: #73cca8;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: start;
+  border-bottom: 2px solid #73cca8;
+  margin: 0.5rem 0;
+}
+
+.text {
+  font-size: 0.9rem;
+}
+
+.skillsList {
+  max-height: 5rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  min-height: 9rem;
+  align-content: space-around;
+}
+
+.point {
+  position: relative;
+  font-size: 0.9rem;
+  &::before {
+    content: "▹";
+    position: absolute;
+    left: -1.5rem;
+    font-weight: 600;
+    color: #73cca8;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
+.h5Title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  position: relative;
+}
+.period {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.workHead {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.workDesc {
+  margin: 0 1.5rem;
+  .point {
+    margin: 0.5rem 0;
+  }
+}

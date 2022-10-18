@@ -27,7 +27,7 @@ function ProjectsBlock() {
                 </div>
                 <div className={styles.projectsCards}>
                     {projectsArr[filter].map((i) => {
-                        return <Card title={i.title} img={i.img} techs={i.techs} key={i.title} />
+                        return <Card title={i.title} img={i.img} techs={i.techs} key={i.title} link={i.link} />
                     })}
                 </div>
             </div>
