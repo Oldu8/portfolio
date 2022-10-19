@@ -7,7 +7,7 @@ function Header() {
             <nav className={styles.nav}>
                 <ul className={styles.list}>
                     <li className={styles.linkLi}>
-                        <a href='/hero' className={styles.link} title='Home'>
+                        <a href='/#hero' className={styles.link} title='Home'>
                             Home
                         </a>
                     </li>

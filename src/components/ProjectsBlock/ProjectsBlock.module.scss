@@ -6,7 +6,7 @@
   padding: 5rem 0;
   @media (max-width: 768px) {
     font-size: 1rem;
-    padding: 0 0.5rem;
+    padding: 2rem 0.5rem;
   }
 }
 
@@ -68,5 +68,6 @@
   @media (max-width: 768px) {
     max-width: initial;
     flex-flow: column;
+    align-items: center;
   }
 }

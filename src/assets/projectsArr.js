@@ -6,6 +6,7 @@ import bamboozle from "./projectsImg/bamboozle.png"
 import stts from "./projectsImg/stts.png"
 import GPS from "./projectsImg/GPS.png"
 import Grocery from "./projectsImg/Grocery.png"
+import BOO from "./projectsImg/BOO.png"
 
 
 
@@ -63,7 +64,7 @@ export const projectsArr = {
         },
         {
             title: 'Boo.ua',
-            img: stts,
+            img: BOO,
             techs: 'React, NextJS, JS, SASS',
             link: 'https://boo.ua/ua/'
         },
