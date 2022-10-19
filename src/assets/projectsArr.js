@@ -16,13 +16,13 @@ export const projectsArr = {
             title: 'Driver Licence Test',
             img: DLT,
             techs: 'React, Redux TK, API, MUI',
-            link: 'https://magnificent-genie-474a7d.netlify.app/'
+            link: 'https://driver-licence-test.netlify.app/'
         },
         {
             title: 'Crypto Portfolio Tracker',
             img: YSW,
             techs: 'React, Redux TK, MUI',
-            link: 'https://ubiquitous-biscotti-2582f2.netlify.app/'
+            link: 'https://your-simple-wallet.netlify.app/'
         },
         {
             title: 'DnD Film Quiz',
