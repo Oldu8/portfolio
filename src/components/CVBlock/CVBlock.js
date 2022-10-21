@@ -17,7 +17,7 @@ function CVBlock() {
                     <p className={styles.description}>
                         You can check my CV below or download it in PDF format
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1iu48LSN_c_QxbDxwnZQHXNTQvfcoxt1A' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1zWKNs2zCBqCDNyOk4PgBRdPx3JdcBdp1' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
