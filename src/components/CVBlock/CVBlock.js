@@ -114,7 +114,7 @@ function CVBlock() {
                                 <h5 className={styles.h5Title}><strong>
                                     Internet Marketer</strong> - <a a href='https://www.linkedin.com/company/netpeak/' target="_blank" rel="noreferrer">Netpeak</a>
                                 </h5>
-                                <span className={styles.period}>05/2020 - 11/2021</span>
+                                <span className={styles.period}>11/2018 - 05/2020</span>
                             </div>
                             <ul className={styles.workDesc}>
                                 <li className={styles.point}>Management of advertising accounts in Google Ads and Facebook and other services to promote goods and services through client sites.</li>
