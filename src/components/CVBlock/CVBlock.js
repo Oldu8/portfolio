@@ -38,7 +38,9 @@ function CVBlock() {
                         Front-End developer with 3 years of commercial industry experience of working for a large outsourcing
                         company and proven ability to effectively collaborate with other developers. I have passion for coding so I am
                         open to changing my tech stack, to receive new skills and get awesome experiences. Ready to apply my
-                        hardworking personality and talent to develop quality solutions and reach clients expectations.
+                        hardworking personality and talent to develop quality solutions and reach clients expectations. Has work permit in Canada and don't require sponsorship.
+                        <br />
+                        Currently, I'm working on an unpaid volunteer job, so I'm ready to start a new job opportunity.
                     </p>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Skills</h4>

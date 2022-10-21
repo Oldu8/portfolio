@@ -16,10 +16,13 @@ function AboutBlock() {
                         My fascination with the web began with, unexpectedly, the work of a marketer. It took me a while to understood that i want to build website rather then promote them. So in 2018-2019 I took development courses and then I have started working as a web developer.
                     </li>
                     <li className={styles.text}>
-                        Over the past 3 years, I have had the fun and pleasere of working for several companies, like BOO.ua, Halo Lab and my own startup DLT app.
+                        Over the past 3 years, I have had the fun and pleasere of working for several companies, like BOO.ua, Halo Lab and my own personal startup DLT app. Now I am helping as a volunteer at the position of Frontend Developer at Empowered Futures from AB, Canada and looking for real job opportunity.
                     </li>
                     <li className={styles.text}>
                         During this time, I improved knowledge of JavaScript, learned how to create SPA apps using React, understood how to create simple backend with Node.js and Express, made a REST API and worked with many other technologies, libraries and services.
+                    </li>
+                    <li className={styles.text}>
+                        Maybe, You already understood that I'm not a native canadian. Yes, I'm migrant and I had came from Ukraine. But don't worry I have work permit for next 3 years, and I don't need a sponsorship.
                     </li>
                     <li>
                         So here are a few technologies I've been working with recently:
