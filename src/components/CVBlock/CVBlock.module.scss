@@ -120,14 +120,16 @@
   }
 }
 
+.link {
+  color: inherit;
+
+  text-decoration: underline;
+}
 .h5Title {
   font-size: 1.2rem;
   font-weight: 400;
   position: relative;
   a {
-    color: inherit;
-
-    text-decoration: underline;
   }
   @media (max-width: 425px) {
     max-width: 60%;
