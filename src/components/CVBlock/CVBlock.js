@@ -12,12 +12,12 @@ function CVBlock() {
                     <p className={styles.description}>
                         Worked somewhere, did something, studied somehow
                         <br />
-                        It was a joke
+                        It was a joke.
                     </p>
                     <p className={styles.description}>
                         You can check my CV below or download it in PDF format
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=11p6CU4TTzwCmlQYLuE4iH4as0KXknJhU' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1iu48LSN_c_QxbDxwnZQHXNTQvfcoxt1A' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -61,7 +61,19 @@ function CVBlock() {
                         <h4 className={styles.blockTitle}>Work experience</h4>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Software Developer</strong> - Driver Licence Test App
+                                <h5 className={styles.h5Title}><strong>FrontEnd Developer</strong> - <a a href='https://www.linkedin.com/company/empowered-futures/' target="_blank" rel="noreferrer">Empowered Futures</a>
+                                </h5>
+                                <span className={styles.period}>10/2022 - current</span>
+                            </div>
+                            <ul className={styles.workDesc}>
+                                <li className={styles.point}>Maintained, reviewed and/or adjusted code and architecture. Debugging, performance measurement, and test-driven development.</li>
+                                <li className={styles.point}>Offered creative and efficient solutions to challenges that arise in clients projects. Participated in meetings and stand ups and worked on a sprint.</li>
+                                <li className={styles.point}>Wrote functions and hooks to create functionality according to the client's template. Improved the readability of the code and increased its performance through optimization.</li>
+                            </ul>
+                        </div>
+                        <div className={styles.work}>
+                            <div className={styles.workHead}>
+                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - Driver Licence Test App
                                 </h5>
                                 <span className={styles.period}>08/2022 - 10/2022</span>
                             </div>
@@ -74,7 +86,7 @@ function CVBlock() {
                         </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Front End Developer</strong> - Halo Lab
+                                <h5 className={styles.h5Title}><strong>Front End Developer</strong> - <a a href='https://www.linkedin.com/company/halolabteam/' target="_blank" rel="noreferrer">Halo Lab</a>
                                 </h5>
                                 <span className={styles.period}>11/2021 - 06/2022</span>
                             </div>
@@ -87,7 +99,7 @@ function CVBlock() {
                         </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - BOO.UA
+                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - <a a href='https://www.linkedin.com/company/booua/' target="_blank" rel="noreferrer">BOO.UA</a>
                                 </h5>
                                 <span className={styles.period}>05/2020 - 11/2021</span>
                             </div>
@@ -97,6 +109,21 @@ function CVBlock() {
                                 <li className={styles.point}>Provided technical support to client via phone, zoom, or other platforms. Agile methodology. Provided SEO practice while building new pages and categories. Advised on the administration of the site.</li>
                             </ul>
                         </div>
+                        <div className={styles.work}>
+                            <div className={styles.workHead}>
+                                <h5 className={styles.h5Title}><strong>
+                                    Internet Marketer</strong> - <a a href='https://www.linkedin.com/company/netpeak/' target="_blank" rel="noreferrer">Netpeak</a>
+                                </h5>
+                                <span className={styles.period}>05/2020 - 11/2021</span>
+                            </div>
+                            <ul className={styles.workDesc}>
+                                <li className={styles.point}>Management of advertising accounts in Google Ads and Facebook and other services to promote goods and services through client sites.</li>
+                                <li className={styles.point}>Communication with the manager, setting goals and deadlines, creating reports for the client. Conducting planned trainings and rallies to improve their own skills and those of colleagues.</li>
+                                <li className={styles.point}>Installing Google Analytics on the site, setting up goals and conversions to track the effectiveness of advertising campaigns.</li>
+                                <li className={styles.point}>Budget management, competitor analysis, search for strengths and weaknesses of competitors. Creation of a promotion strategy based on data analysis from the client. Setting up services, advertising campaigns, ads and optimizing them.</li>
+
+                            </ul>
+                        </div>
                     </div>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Education</h4>
@@ -104,6 +131,17 @@ function CVBlock() {
                             <strong>Odesa I.I. Mechnikov National University</strong> Bachelor, Management
                         </h5>
                         <span className={styles.period}>2013 - 2019</span>
+                    </div>
+                    <div className={styles.box}>
+                        <h4 className={styles.blockTitle}>Licence and Certifications </h4>
+                        <h5 className={styles.edTitle}>
+                            <strong><a href='https://www.linkedin.com/school/ithillel/' target="_blank" rel="noreferrer">Hillel</a></strong> Front End Basic - HTML + CSS
+                        </h5>
+                        <span className={styles.period}>2019 - 2020</span>
+                        <h5 className={styles.edTitle}>
+                            <strong><a href='https://www.linkedin.com/school/ithillel/' target="_blank" rel="noreferrer">Hillel</a></strong> Front End PRO - JavaScipt
+                        </h5>
+                        <span className={styles.period}>2020 - 2020</span>
                     </div>
                 </article>
             </div >

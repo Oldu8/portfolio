@@ -1,4 +1,4 @@
-import './App.css';
+import './App.module.scss';
 import AboutBlock from './components/AboutBlock/AboutBlock';
 import CVBlock from './components/CVBlock/CVBlock';
 import Footer from './components/Footer/Footer';

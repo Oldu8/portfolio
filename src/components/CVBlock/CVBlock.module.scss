@@ -2,7 +2,7 @@
   max-width: 40rem;
   text-align: justify;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .title {
@@ -124,6 +124,11 @@
   font-size: 1.2rem;
   font-weight: 400;
   position: relative;
+  a {
+    color: inherit;
+
+    text-decoration: underline;
+  }
   @media (max-width: 425px) {
     max-width: 60%;
   }
@@ -149,4 +154,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   position: relative;
+  a {
+    color: inherit;
+  }
 }
