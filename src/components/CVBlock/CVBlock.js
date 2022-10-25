@@ -17,7 +17,7 @@ function CVBlock() {
                     <p className={styles.description}>
                         You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1Y_TG6GMz-MlJC7y6TcwWLbnSm44d3d-G/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1Y_TG6GMz-MlJC7y6TcwWLbnSm44d3d-G' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1vbjuM4aQCBIieDvM29PbRilGgf3MEdcT' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -65,6 +65,9 @@ function CVBlock() {
                             <div className={styles.workHead}>
                                 <h5 className={styles.h5Title}><strong>FrontEnd Developer</strong> - <a a href='https://www.linkedin.com/company/empowered-futures/' target="_blank" rel="noreferrer">Empowered Futures</a>
                                 </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>Remote, AB, Canada</span>
                                 <span className={styles.period}>10/2022 - current</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -77,6 +80,9 @@ function CVBlock() {
                             <div className={styles.workHead}>
                                 <h5 className={styles.h5Title}><strong>Web Developer</strong> - Driver Licence Test App
                                 </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>Remote, ON, Canada</span>
                                 <span className={styles.period}>08/2022 - 10/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -90,6 +96,9 @@ function CVBlock() {
                             <div className={styles.workHead}>
                                 <h5 className={styles.h5Title}><strong>Front End Developer</strong> - <a a href='https://www.linkedin.com/company/halolabteam/' target="_blank" rel="noreferrer">Halo Lab</a>
                                 </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>Remote, Ukraine</span>
                                 <span className={styles.period}>11/2021 - 06/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -103,6 +112,9 @@ function CVBlock() {
                             <div className={styles.workHead}>
                                 <h5 className={styles.h5Title}><strong>Web Developer</strong> - <a a href='https://www.linkedin.com/company/booua/' target="_blank" rel="noreferrer">BOO.UA</a>
                                 </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>Remote, Ukraine</span>
                                 <span className={styles.period}>05/2020 - 11/2021</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -116,6 +128,9 @@ function CVBlock() {
                                 <h5 className={styles.h5Title}><strong>
                                     Internet Marketer</strong> - <a a href='https://www.linkedin.com/company/netpeak/' target="_blank" rel="noreferrer">Netpeak</a>
                                 </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>Remote, Ukraine</span>
                                 <span className={styles.period}>11/2018 - 05/2020</span>
                             </div>
                             <ul className={styles.workDesc}>

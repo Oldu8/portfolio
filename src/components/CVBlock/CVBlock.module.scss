@@ -140,6 +140,16 @@
   opacity: 0.7;
 }
 
+.workAdd {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.geo {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
 .workHead {
   display: flex;
   flex-flow: row nowrap;
