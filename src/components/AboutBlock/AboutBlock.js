@@ -32,7 +32,7 @@ function AboutBlock() {
                             <li className={styles.skill}>Next.js</li>
                             <li className={styles.skill}>Node.js</li>
                             <li className={styles.skill}>REST API + MongoDB</li>
-                            <li className={styles.skill}>Redax/Redax TK</li>
+                            <li className={styles.skill}>Redux/Redux TK</li>
                             <li className={styles.skill}>CSS, SCSS, Bootstrap</li>
                             <li className={styles.skill}>HTML5</li>
                         </ul>

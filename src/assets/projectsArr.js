@@ -25,10 +25,10 @@ export const projectsArr = {
             link: 'https://your-simple-wallet.netlify.app/'
         },
         {
-            title: 'DnD Film Quiz',
+            title: 'Simple quiz games',
             img: DND,
-            techs: 'React, bootstrap',
-            link: 'https://lambent-kataifi-2215e4.netlify.app/'
+            techs: 'React, TypeScript, Bootstrap',
+            link: 'https://amazing-puffpuff-3c8167.netlify.app/'
         },
         {
             title: 'GPS Calculator',
