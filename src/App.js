@@ -8,7 +8,8 @@ import ProjectsBlock from './components/ProjectsBlock/ProjectsBlock';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
+      <div id='stars2'></div>
       <Header />
       <HeroBlock />
       <AboutBlock />
