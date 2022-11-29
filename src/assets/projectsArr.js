@@ -7,6 +7,7 @@ import stts from "./projectsImg/stts.png"
 import GPS from "./projectsImg/GPS.png"
 import Grocery from "./projectsImg/Grocery.png"
 import BOO from "./projectsImg/BOO.png"
+import Colors from "./projectsImg/Colors.png"
 
 
 
@@ -17,6 +18,12 @@ export const projectsArr = {
             img: DLT,
             techs: 'React, Redux TK, API, MUI',
             link: 'https://driver-licence-test.netlify.app/'
+        },
+        {
+            title: 'Random Colors',
+            img: Colors,
+            techs: 'Vanila JS, Chromo, Unity testing',
+            link: 'https://rad-rolypoly-0823dd.netlify.app/'
         },
         {
             title: 'Crypto Portfolio Tracker',
