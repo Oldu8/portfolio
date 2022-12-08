@@ -13,7 +13,7 @@ function Card({ title, img, techs, link }) {
                     <p className={styles.tech}>
                         {techs}
                     </p>
-                    <a href={link} target="_blank" rel="noreferrer">
+                    <a href={link} target="_blank" rel="noreferrer" className={styles.tooltipBtnWrapper}>
                         <button className={styles.tooltipButton}>
                             Check website
                         </button>
