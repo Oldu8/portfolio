@@ -17,7 +17,7 @@ function CVBlock() {
                     <p className={styles.description}>
                         You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1Y_TG6GMz-MlJC7y6TcwWLbnSm44d3d-G/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1vbjuM4aQCBIieDvM29PbRilGgf3MEdcT' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1TmoNNRdJMBSEyZycP_6VyAFdayJ3dnH0' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -78,12 +78,12 @@ function CVBlock() {
                         </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - Driver Licence Test App
+                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - Eco4You
                                 </h5>
                             </div>
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, ON, Canada</span>
-                                <span className={styles.period}>08/2022 - 10/2022</span>
+                                <span className={styles.period}>08/2022 - 12/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
                                 <li className={styles.point}>Worked on web development projects as assigned, taking a project from initial layout to a full responsive, functioning live site. Created functions for rendering, checking data, sending requests and business logic on the project. Performed cross-browser testing JEST and optimization.</li>
