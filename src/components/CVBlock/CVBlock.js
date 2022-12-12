@@ -40,7 +40,7 @@ function CVBlock() {
                         open to changing my tech stack, to receive new skills and get awesome experiences. Ready to apply my
                         hardworking personality and talent to develop quality solutions and reach clients expectations. Has work permit in Canada and don't require sponsorship.
                         <br />
-                        Currently, I'm working on an unpaid volunteer job, so I'm ready to start a new job opportunity.
+                        Currently, I'm working on an unpaid volunteer job, so I'm ready and willing to start a new job opportunity.
                     </p>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Skills</h4>
@@ -138,7 +138,6 @@ function CVBlock() {
                                 <li className={styles.point}>Communication with the manager, setting goals and deadlines, creating reports for the client. Conducting planned trainings and rallies to improve their own skills and those of colleagues.</li>
                                 <li className={styles.point}>Installing Google Analytics on the site, setting up goals and conversions to track the effectiveness of advertising campaigns.</li>
                                 <li className={styles.point}>Budget management, competitor analysis, search for strengths and weaknesses of competitors. Creation of a promotion strategy based on data analysis from the client. Setting up services, advertising campaigns, ads and optimizing them.</li>
-
                             </ul>
                         </div>
                     </div>
@@ -146,6 +145,9 @@ function CVBlock() {
                         <h4 className={styles.blockTitle}>Education</h4>
                         <h5 className={styles.edTitle}>
                             <strong>Odesa I.I. Mechnikov National University</strong> Bachelor, Management
+                            <ul className={styles.workDesc}>
+                                <li className={styles.point}>Major in Marketing and Management with minor in web development and internet marketing.</li>
+                            </ul>
                         </h5>
                         <span className={styles.period}>2013 - 2019</span>
                     </div>
@@ -159,6 +161,10 @@ function CVBlock() {
                             <strong><a href='https://www.linkedin.com/school/ithillel/' target="_blank" rel="noreferrer">Hillel</a></strong> Front End PRO - JavaScipt
                         </h5>
                         <span className={styles.period}>2020 - 2020</span>
+                        <h5 className={styles.edTitle}>
+                            <strong><a href='https://freecodecamp.org/certification/fccb20668db-e7a4-4825-95ae-ce07a42f330f/javascript-algorithms-and-data-structures' target="_blank" rel="noreferrer">freeCodeCamp </a></strong>JavaScript Algorithms and Data Structures
+                        </h5>
+                        <span className={styles.period}>2022 - 2022</span>
                     </div>
                 </article>
             </div >
