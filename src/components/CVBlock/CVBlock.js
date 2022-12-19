@@ -17,7 +17,7 @@ function CVBlock() {
                     <p className={styles.description}>
                         You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1Y_TG6GMz-MlJC7y6TcwWLbnSm44d3d-G/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1TmoNNRdJMBSEyZycP_6VyAFdayJ3dnH0' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1H_aHjLAe0Rnd__M7bjwd96tHKLg7uWne' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -38,9 +38,9 @@ function CVBlock() {
                         Front-End developer with 3 years of commercial industry experience of working for a large outsourcing
                         company and proven ability to effectively collaborate with other developers. I have passion for coding so I am
                         open to changing my tech stack, to receive new skills and get awesome experiences. Ready to apply my
-                        hardworking personality and talent to develop quality solutions and reach clients expectations. Has work permit in Canada and don't require sponsorship.
+                        hardworking personality and talent to develop quality solutions and reach clients expectations.
                         <br />
-                        Currently, I'm working on an unpaid volunteer job, so I'm ready and willing to start a new job opportunity.
+                        Has work permit in Canada and don't require sponsorship.
                     </p>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Skills</h4>
@@ -68,7 +68,8 @@ function CVBlock() {
                             </div>
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, AB, Canada</span>
-                                <span className={styles.period}>10/2022 - current</span>
+                                <span className={styles.geo}>Type: Volunteer job</span>
+                                <span className={styles.period}>10/2022 - 12/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
                                 <li className={styles.point}>Maintained, reviewed and/or adjusted code and architecture. Debugging, performance measurement, and test-driven development.</li>
@@ -83,6 +84,7 @@ function CVBlock() {
                             </div>
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, ON, Canada</span>
+                                <span className={styles.geo}>Type: Contract</span>
                                 <span className={styles.period}>08/2022 - 12/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -99,6 +101,7 @@ function CVBlock() {
                             </div>
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, Ukraine</span>
+                                <span className={styles.geo}>Type: Full time</span>
                                 <span className={styles.period}>11/2021 - 06/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -115,6 +118,7 @@ function CVBlock() {
                             </div>
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, Ukraine</span>
+                                <span className={styles.geo}>Type: Full time</span>
                                 <span className={styles.period}>05/2020 - 11/2021</span>
                             </div>
                             <ul className={styles.workDesc}>
@@ -130,7 +134,8 @@ function CVBlock() {
                                 </h5>
                             </div>
                             <div className={styles.workAdd}>
-                                <span className={styles.geo}>Remote, Ukraine</span>
+                                <span className={styles.geo}>On-site, Ukraine</span>
+                                <span className={styles.geo}>Type: Full time</span>
                                 <span className={styles.period}>11/2018 - 05/2020</span>
                             </div>
                             <ul className={styles.workDesc}>
