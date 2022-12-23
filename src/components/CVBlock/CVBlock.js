@@ -17,7 +17,7 @@ function CVBlock() {
                     <p className={styles.description}>
                         You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1Y_TG6GMz-MlJC7y6TcwWLbnSm44d3d-G/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1H_aHjLAe0Rnd__M7bjwd96tHKLg7uWne' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1YJQsov-FjmNrJAD6FxGVBhFlf8R4zE3W' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -105,10 +105,10 @@ function CVBlock() {
                                 <span className={styles.period}>11/2021 - 06/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
-                                <li className={styles.point}>Independently wrote 3 projects using React/Redux and other libraries. Singlehandedly wrote an internal project using Sanity CMS + React, this allowed to reduce the project development time by more than 40%.</li>
+                                <li className={styles.point}>Independently wrote 5 projects using React/Redux and other libraries. Singlehandedly wrote an internal project using Sanity CMS + React, this allowed to reduce the project development time by more than 40%.</li>
                                 <li className={styles.point}>Participated in pair programming with 3 engineers, and reviewed team’s code to provide additional perspective and catch previously missed errors. Worked in an agile environment with daily and weekly stand-ups and conducted 2 hours of sprint planning and sprint retrospectives per week.</li>
                                 <li className={styles.point}>Independently designed and built my own SPA using CoinGecko API and React/Redux TK. Implemented a new API that helps create new services in the project. I implemented a Redux TK instead of Redux on a project, which helped to increase code readability and centralize state data. </li>
-                                <li className={styles.point}>Changed the layout, imports types, and implemented a responsible design for a large project. This made it possible to use the application from tablets and 4k monitors and improved loading speed more than 15%.</li>
+                                <li className={styles.point}>Developed and implemented routing for the project, created multi-page applications. Simplified and isolated business logic for a large project, improved code quality.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
