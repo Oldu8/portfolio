@@ -15,9 +15,9 @@ function CVBlock() {
                         It was a joke.
                     </p>
                     <p className={styles.description}>
-                        You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1Y_TG6GMz-MlJC7y6TcwWLbnSm44d3d-G/view?usp=sharing'>Google Drive.</a>
+                        You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/131Ht4MMTWf5SXnM4WAsKqFTigDwF45Ye/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1YJQsov-FjmNrJAD6FxGVBhFlf8R4zE3W' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=131Ht4MMTWf5SXnM4WAsKqFTigDwF45Ye' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -27,40 +27,60 @@ function CVBlock() {
                     <h3 className={styles.cvTitlte}>Oleh Dudko</h3>
                     <h2 className={styles.cvSubTitlte}>Front End Developer</h2>
                     <ul className={styles.contacts}>
-                        <li className={styles.unit}>Toronto, ON</li>
-                        <li className={styles.unit}>416-500-0815</li>
-                        <li className={styles.unit}>o.dudko.ca@gmail.com</li>
-                        <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/olehdudkoca/'>Linkedin</a></li>
+                        <li className={styles.unit}>Moldova</li>
+                        <li className={styles.unit}>+380-97-39-86-178</li>
+                        <li className={styles.unit}>dudkoleg@gmail.com</li>
+                        <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/oleh-d-357696175/'>Linkedin</a></li>
                         <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://github.com/Oldu8'>GitHub</a></li>
                     </ul>
                     <h4 className={styles.blockTitle}>Summary</h4>
                     <p className={styles.text}>
-                        Front-End developer with 3 years of commercial industry experience of working for a large outsourcing
-                        company and proven ability to effectively collaborate with other developers. I have passion for coding so I am
+                        Front-End developer with 1.5 years of commercial industry experience of working in several different companies
+                        from Ukraine and Canada. Have proven ability to effectively collaborate with other developers. I’m Ukrainian, and currently live in Moldova, looking for remote work opportunities.
+                        <br />
+                        I have passion for coding so I am
                         open to changing my tech stack, to receive new skills and get awesome experiences. Ready to apply my
                         hardworking personality and talent to develop quality solutions and reach clients expectations.
                         <br />
-                        Has work permit in Canada and don't require sponsorship.
                     </p>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Skills</h4>
                         <ul className={styles.skillsList}>
                             <li className={styles.point}>JavaScipt</li>
                             <li className={styles.point}>React / React Hooks</li>
-                            <li className={styles.point}>NextJS</li>
+                            <li className={styles.point}>TypeScript</li>
                             <li className={styles.point}>Node.js / Express</li>
+                            <li className={styles.point}>Redux / Redux TK</li>
                             <li className={styles.point}>REST API</li>
                             <li className={styles.point}>MongoDB</li>
                             <li className={styles.point}>JEST</li>
-                            <li className={styles.point}>Redux / Redux TK</li>
                             <li className={styles.point}>CSS / SCSS / SASS</li>
-                            <li className={styles.point}>Bootstrap / MUI</li>
                             <li className={styles.point}>HTML5</li>
+                            <li className={styles.point}>Bootstrap / MUI</li>
                             <li className={styles.point}>Git / GitHub</li>
                         </ul>
                     </div>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Work experience</h4>
+                        <div className={styles.work}>
+                            <div className={styles.workHead}>
+                                <h5 className={styles.h5Title}><strong>Frontend Developer</strong> - Eco4You
+                                </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>Remote, ON, Canada</span>
+                                <span className={styles.geo}>Type: Contract</span>
+                                <span className={styles.period}>08/2022 - 01/2023</span>
+                            </div>
+                            <ul className={styles.workDesc}>
+                                <li className={styles.point}>Taking a project from initial layout to a full responsive, functioning live site. Created functions for
+                                    rendering, checking data, sending requests and business logic on the project with React.</li>
+                                <li className={styles.point}>Developed SPA to improve the convenience and loading speed. Implemented Redux TK. Created business
+                                    logic for data processing.</li>
+                                <li className={styles.point}>Implemented the MUI and module styles to speed up development and create modern page design.</li>
+                                <li className={styles.point}>Created REST API for app with Node.js and MongoDB. Developed a simple backend with Express.</li>
+                            </ul>
+                        </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
                                 <h5 className={styles.h5Title}><strong>FrontEnd Developer</strong> - <a a href='https://www.linkedin.com/company/empowered-futures/' target="_blank" rel="noreferrer">Empowered Futures</a>
@@ -69,34 +89,19 @@ function CVBlock() {
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, AB, Canada</span>
                                 <span className={styles.geo}>Type: Volunteer job</span>
-                                <span className={styles.period}>10/2022 - 12/2022</span>
+                                <span className={styles.period}>10/2022 - 01/2023</span>
                             </div>
                             <ul className={styles.workDesc}>
-                                <li className={styles.point}>Maintained, reviewed and/or adjusted code and architecture. Debugging, performance measurement, and test-driven development.</li>
-                                <li className={styles.point}>Offered creative and efficient solutions to challenges that arise in clients projects. Participated in meetings and stand ups and worked on a sprint.</li>
-                                <li className={styles.point}>Wrote functions and hooks to create functionality according to the client's template. Improved the readability of the code and increased its performance through optimization.</li>
+                                <li className={styles.point}>Maintained, reviewed and adjusted code. Debugging and performance measurement.</li>
+                                <li className={styles.point}>Developed mobile and web application using TypeScript, incorporating new features, animations, analytics
+                                    and improving user experience. Participated in meetings and stand ups and worked on a sprint.</li>
+                                <li className={styles.point}>Wrote functions and hooks with React to create functionality according to the figma. Improved the
+                                    readability of the code and increased its performance.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - Eco4You
-                                </h5>
-                            </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>Remote, ON, Canada</span>
-                                <span className={styles.geo}>Type: Contract</span>
-                                <span className={styles.period}>08/2022 - 12/2022</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>Worked on web development projects as assigned, taking a project from initial layout to a full responsive, functioning live site. Created functions for rendering, checking data, sending requests and business logic on the project. Performed cross-browser testing JEST and optimization.</li>
-                                <li className={styles.point}>Developed SPA to improve the convenience speed of the application and allow users to update the quiz questions interface without reloading. Implemented Redux TK.Created business logic for data processing.</li>
-                                <li className={styles.point}>Implemented the MUI and module styles to speed up development and create modern page design.</li>
-                                <li className={styles.point}>Created REST API for app with Node.js and MongoDB. Developed a simple backend with Express.</li>
-                            </ul>
-                        </div>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Front End Developer</strong> - <a a href='https://www.linkedin.com/company/halolabteam/' target="_blank" rel="noreferrer">Halo Lab</a>
+                                <h5 className={styles.h5Title}><strong>Junior Front End Developer</strong> - <a a href='https://www.linkedin.com/company/halolabteam/' target="_blank" rel="noreferrer">Halo Lab</a>
                                 </h5>
                             </div>
                             <div className={styles.workAdd}>
@@ -105,32 +110,49 @@ function CVBlock() {
                                 <span className={styles.period}>11/2021 - 06/2022</span>
                             </div>
                             <ul className={styles.workDesc}>
-                                <li className={styles.point}>Independently wrote 5 projects using React/Redux and other libraries. Singlehandedly wrote an internal project using Sanity CMS + React, this allowed to reduce the project development time by more than 40%.</li>
+                                <li className={styles.point}>Independently wrote 4 projects using React/Redux and other libraries. Singlehandedly wrote an internal project using Sanity CMS + React and Next.js, this allowed to reduce the project development time by more than 30%</li>
                                 <li className={styles.point}>Participated in pair programming with 3 engineers, and reviewed team’s code to provide additional perspective and catch previously missed errors. Worked in an agile environment with daily and weekly stand-ups and conducted 2 hours of sprint planning and sprint retrospectives per week.</li>
-                                <li className={styles.point}>Independently designed and built my own SPA using CoinGecko API and React/Redux TK. Implemented a new API that helps create new services in the project. I implemented a Redux TK instead of Redux on a project, which helped to increase code readability and centralize state data. </li>
-                                <li className={styles.point}>Developed and implemented routing for the project, created multi-page applications. Simplified and isolated business logic for a large project, improved code quality.</li>
+                                <li className={styles.point}>Independently designed and built my own SPA using CoinGecko API and React/Redux TK. Implemented a new API that helps create new services in the project. I implemented a Redux TK instead of Redux on a project, which helped to increase code readability and centralize state data.</li>
+                                <li className={styles.point}>Participated in the development of a large online store, worked in tandem with another developer and tester. He helped develop business logic and render components, set up the state manager, functionality and rendering of components.</li>
+                                <li className={styles.point}>Changed the layout, imports types, and implemented a responsible design for a large project. This made it possible to use the application from tablets and 4k monitors and improved loading speed more than 15%.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Web Developer</strong> - <a a href='https://www.linkedin.com/company/booua/' target="_blank" rel="noreferrer">BOO.UA</a>
+                                <h5 className={styles.h5Title}><strong>Junior Front End Developer</strong> - Daap developer team
+                                </h5>
+                            </div>
+                            <div className={styles.workAdd}>
+                                <span className={styles.geo}>On-site, Ukraine</span>
+                                <span className={styles.geo}>Type: Full time</span>
+                                <span className={styles.period}>08/2021 - 11/2021</span>
+                            </div>
+                            <ul className={styles.workDesc}>
+                                <li className={styles.point}>UI development  for a platform in the field of cryptocurrencies. Refinement and creation of new interfaces according to the finished layout.</li>
+                                <li className={styles.point}>Working with the API, creating separate components and functionality for data processing.</li>
+                                <li className={styles.point}>Interaction with the team, training along with the team leader on the project.</li>
+                            </ul>
+                        </div>
+                        <div className={styles.work}>
+                            <div className={styles.workHead}>
+                                <h5 className={styles.h5Title}><strong>Middle Internet Marketer</strong> - Boo.ua
                                 </h5>
                             </div>
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, Ukraine</span>
                                 <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>05/2020 - 11/2021</span>
+                                <span className={styles.period}>05/2020 - 08/2021</span>
                             </div>
                             <ul className={styles.workDesc}>
-                                <li className={styles.point}>Established user-friendly design, optimized pages with goods, cart page, check-out page, resulting in increased 20% user clicks and growth in 12% for adding products to cart. Added scripts of Google Analytics and other services to the project. Diagnosed and troubleshooting daily problems with a team.</li>
-                                <li className={styles.point}>Developed new pages with new categories using React. Worked with multi pages in NodeJS for updating routing and generating new pages.support and maintenance of the website in high seasons. </li>
-                                <li className={styles.point}>Provided technical support to client via phone, zoom, or other platforms. Agile methodology. Provided SEO practice while building new pages and categories. Advised on the administration of the site.</li>
+                                <li className={styles.point}>Management and optimization of advertising campaigns in different advertising accounts - Facebook, Google, etc.</li>
+                                <li className={styles.point}>Creation of reporting, analysis of the received data. Preparation of a project development plan.</li>
+                                <li className={styles.point}>Additionally, for the position, I interacted with the development department, wrote some functions and made small changes under the supervision of the frontend team lead.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
                             <div className={styles.workHead}>
                                 <h5 className={styles.h5Title}><strong>
-                                    Internet Marketer</strong> - <a a href='https://www.linkedin.com/company/netpeak/' target="_blank" rel="noreferrer">Netpeak</a>
+                                    Junior Internet Marketer</strong> - <a a href='https://www.linkedin.com/company/netpeak/' target="_blank" rel="noreferrer">Netpeak</a>
                                 </h5>
                             </div>
                             <div className={styles.workAdd}>
