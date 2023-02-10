@@ -1,48 +1,19 @@
 .card {
-  width: 320px;
+  min-width: 100%;
   height: 400px;
   margin-right: 2rem;
   position: relative;
+  display: flex;
+  border: 1px solid #73cca8;
+  padding: 0.75rem;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 1rem;
   @media (max-width: 768px) {
     margin: 0;
   }
 }
-
-.container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  &:hover .tooltip {
-    visibility: visible;
-  }
-}
-
-.imgContainer {
-  display: flex;
-  width: 322px;
-  height: 322px;
-  justify-content: center;
-  padding: 10px;
-  border: 1px solid white;
-  position: absolute;
-  backface-visibility: hidden;
-}
-
-.tooltip {
-  position: absolute;
-  display: flex;
-  visibility: hidden;
-  width: 320px;
-  height: 320px;
-  background-color: #dbe8d4;
-  background-color: rgb(0, 0, 0, 0.3);
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.tooltipBtnWrapper {
-  background-color: rgb(0, 0, 0, 0.6);
+.btnWrapper {
   padding: 1rem 0;
   width: 100%;
   display: flex;
@@ -51,7 +22,7 @@
   justify-content: center;
 }
 
-.tooltipButton {
+.button {
   color: #73cca8;
   background-color: #222733;
   font-weight: 600;
@@ -59,6 +30,15 @@
   padding: 0.5rem 1.5rem;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+.imgContainer {
+  display: flex;
+  width: 322px;
+  height: 322px;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgb(3, 2, 2);
 }
 
 .img {
@@ -76,11 +56,25 @@
   left: 0%;
 }
 
-.tech {
-  background-color: rgb(0, 0, 0, 0.6);
+.techList {
   padding: 1rem 0;
   color: #73cca8;
-  text-align: center;
+  text-align: start;
   width: 100%;
   font-weight: 600;
+}
+
+.infoText {
+  padding: 0 1.7rem;
+}
+.subtitle {
+  text-align: center;
+  // padding-top: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  height: 322px;
 }

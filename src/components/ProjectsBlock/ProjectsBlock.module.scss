@@ -60,7 +60,7 @@
 
 .projectsCards {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: space-evenly;
   max-width: 70vw;
   margin: 0 auto;

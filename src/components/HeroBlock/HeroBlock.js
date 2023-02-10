@@ -14,14 +14,12 @@ function HeroBlock() {
                     <img src={avatar} className={styles.img} alt='my avatar'></img>
                 </div>
                 <p className={styles.description}>
-                    FrontEnd Developer, Web Developer, maybe, Software Developer or Software Engineer  -  specializing in creating responsive websites and applications.
+                    I'm a FrontEnd Developer  -  specializing in creating responsive websites and applications.
                     <br />
-                    Currently living in Toronto, Canada.
+                    I was born in Ukraine, but currently I live in Eastern Europe.
                     <br />
                     <br />
-                    Also right now, I'm FrontEnd Developer in <a className={styles.heroLink} href='https://www.linkedin.com/company/empowered-futures/' target="_blank" rel="noreferrer">Empowered Futures</a>. Basically, it is a part-time unpaid volunteer job. Of course, volunteer work is cool, but I am looking for full-time and remote job opportunities to gain new coding experience and continue to be inspired by the world of web development.
-                    <br />
-                    But everything can be discussable, as always in this world.
+                    I am looking for full-time and remote job opportunities to gain new coding experience and continue to be inspired by the world of web development.
                 </p>
             </div>
         </section>
