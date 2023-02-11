@@ -8,6 +8,9 @@ import GPS from "./projectsImg/GPS.png"
 import Grocery from "./projectsImg/Grocery.png"
 import BOO from "./projectsImg/BOO.png"
 import Colors from "./projectsImg/Colors.png"
+import SC from "./projectsImg/SC.png"
+import SeaBattle from "./projectsImg/SeaBattle.png"
+
 
 
 
@@ -21,6 +24,20 @@ export const projectsArr = {
             link: 'https://driver-licence-test.netlify.app/'
         },
         {
+            title: 'Crypto Portfolio Tracker',
+            img: YSW,
+            description: "It's my personal project, which I have completely invented and implemented by myself. This project has quite a lot of business logic and complex functions for processing, transferring, editing data. I take the data from the open API CoinGecko.",
+            techs: 'React, TypeScript, Redux TK, API, MUI, JEST',
+            link: 'https://your-simple-wallet.netlify.app/'
+        },
+        {
+            title: 'Sea battle board game',
+            img: SeaBattle,
+            description: "This is the hardest test I've ever done. It was hard to come up with an implementation of the placement of ships so that there were the right number of them and they did not touch. It turned out even to implement in the OOP approach.",
+            techs: 'React, TypeScript, CSS',
+            link: 'https://rad-rolypoly-0823dd.netlify.app/'
+        },
+        {
             title: 'Random Colors',
             img: Colors,
             description: "Simple app that allow you to randomly generate colors and lock color that you like to create unique variations of color.",
@@ -28,11 +45,11 @@ export const projectsArr = {
             link: 'https://rad-rolypoly-0823dd.netlify.app/'
         },
         {
-            title: 'Crypto Portfolio Tracker',
-            img: YSW,
-            description: "It's my personal project, which I have completely invented and implemented by myself. This project has quite a lot of business logic and complex functions for processing, transferring, editing data. I take the data from the open API CoinGecko.",
-            techs: 'React, TypeScript, Redux TK, API, MUI, JEST',
-            link: 'https://your-simple-wallet.netlify.app/'
+            title: 'Storage Calculator',
+            img: SC,
+            description: "One of test task that I did. Just a calculator that works with unlimited number of objects. The difficulty in creating was in the layering and several conditions for creating an API and a Chart.js.",
+            techs: 'TypeScript, Chart.js, JEST, SCSS',
+            link: 'https://silver-bavarois-9ea460.netlify.app/'
         },
         {
             title: 'Simple quiz games',
