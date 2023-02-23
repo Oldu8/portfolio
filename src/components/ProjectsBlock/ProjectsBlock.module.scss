@@ -12,7 +12,9 @@
 
 .content {
   height: 100%;
+  max-width: 90vw;
 }
+
 .title {
   font-size: 2rem;
   font-weight: 400;
@@ -21,6 +23,9 @@
   text-align: center;
   padding: 1rem 0;
   border-bottom: 4px solid #73cca8;
+  @media (max-width: 425px) {
+    max-width: 90vw;
+  }
 }
 
 .description {
@@ -28,8 +33,11 @@
   margin: 2rem auto;
   font-size: 1.2rem;
   text-align: justify;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem auto;
+  @media (max-width: 425px) {
+    max-width: 90vw;
+    font-size: 0.9rem;
+  }
 }
 
 .filterPanel {
@@ -39,6 +47,9 @@
   padding: 0.3rem 0;
   flex-direction: row;
   justify-content: space-around;
+  @media (max-width: 425px) {
+    flex-direction: column;
+  }
 }
 
 .filterButton {
@@ -69,5 +80,6 @@
     max-width: initial;
     flex-flow: column;
     align-items: center;
+    max-width: 90vw;
   }
 }
