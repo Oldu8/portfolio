@@ -27,16 +27,16 @@ function CVBlock() {
                     <h3 className={styles.cvTitlte}>Oleh Dudko</h3>
                     <h2 className={styles.cvSubTitlte}>Front End Developer</h2>
                     <ul className={styles.contacts}>
-                        <li className={styles.unit}>Moldova</li>
-                        <li className={styles.unit}>+380-97-39-86-178</li>
+                        <li className={styles.unit}>Romania</li>
+                        {/* <li className={styles.unit}>+380-97-39-86-178</li> */}
                         <li className={styles.unit}>dudkoleg@gmail.com</li>
-                        <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/oleh-d-357696175/'>Linkedin</a></li>
+                        <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/oldu8/'>Linkedin</a></li>
                         <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://github.com/Oldu8'>GitHub</a></li>
                     </ul>
                     <h4 className={styles.blockTitle}>Summary</h4>
                     <p className={styles.text}>
-                        Front-End developer with 1.5 years of commercial industry experience of working in several different companies
-                        from Ukraine and Canada. Have proven ability to effectively collaborate with other developers. I’m Ukrainian, and currently live in Moldova, looking for remote work opportunities.
+                        Front-End developer with 2 years of commercial industry experience of working in several different companies
+                        from Ukraine and Canada. Have proven ability to effectively collaborate with other developers. I’m Ukrainian, and currently live in Romania, looking for remote / on-stie work opportunities.
                         <br />
                         I have passion for coding so I am
                         open to changing my tech stack, to receive new skills and get awesome experiences. Ready to apply my
@@ -50,6 +50,7 @@ function CVBlock() {
                             <li className={styles.point}>React / React Hooks</li>
                             <li className={styles.point}>TypeScript</li>
                             <li className={styles.point}>Node.js / Express</li>
+                            <li className={styles.point}>Nest.js</li>
                             <li className={styles.point}>Redux / Redux TK</li>
                             <li className={styles.point}>REST API</li>
                             <li className={styles.point}>MongoDB</li>
@@ -70,15 +71,16 @@ function CVBlock() {
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, ON, Canada</span>
                                 <span className={styles.geo}>Type: Contract</span>
-                                <span className={styles.period}>08/2022 - 01/2023</span>
+                                <span className={styles.period}>07/2022 - 02/2023</span>
                             </div>
                             <ul className={styles.workDesc}>
-                                <li className={styles.point}>Taking a project from initial layout to a full responsive, functioning live site. Created functions for
-                                    rendering, checking data, sending requests and business logic on the project with React.</li>
-                                <li className={styles.point}>Developed SPA to improve the convenience and loading speed. Implemented Redux TK. Created business
-                                    logic for data processing.</li>
+                                <li className={styles.point}>Participation in the development of the architecture of the front-end part of the application. Wrote the main components of the application in React, Next and TS.</li>
+                                <li className={styles.point}>Taking a project from initial layout to a full responsive, functioning live site. Created functions for rendering, checking data, sending requests and business logic. Code review.</li>
+                                <li className={styles.point}>Development of the entire user interface, work with animation. Installing Redux state management, optimizing business logic and porting code.</li>
                                 <li className={styles.point}>Implemented the MUI and module styles to speed up development and create modern page design.</li>
-                                <li className={styles.point}>Created REST API for app with Node.js and MongoDB. Developed a simple backend with Express.</li>
+                                <li className={styles.point}>Worked with the authorization process for the app, development of the admin’s panel and functionality.</li>
+                                <li className={styles.point}>Worked with legacy code, transferred project’s components to TypeScript. I was engaged in the creation of unit tests and code coverage.</li>
+                                <li className={styles.point}>Created and developed REST API for the app with Node.js / Nest.js and MongoDB.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
@@ -125,12 +127,14 @@ function CVBlock() {
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>On-site, Ukraine</span>
                                 <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>08/2021 - 11/2021</span>
+                                <span className={styles.period}>05/2021 - 11/2021</span>
                             </div>
                             <ul className={styles.workDesc}>
-                                <li className={styles.point}>UI development  for a platform in the field of cryptocurrencies. Refinement and creation of new interfaces according to the finished layout.</li>
+                                <li className={styles.point}>UI development  for a platform in web3. Refinement and creation of new layout according to the figma.</li>
                                 <li className={styles.point}>Working with the API, creating separate components and functionality for data processing.</li>
-                                <li className={styles.point}>Interaction with the team, training along with the team leader on the project.</li>
+                                <li className={styles.point}>Created visualization with graphs and bars based on API data, the development of functionality for the converter and data processing.</li>
+                                <li className={styles.point}>Working with Redux for processing, saving data on client and server side</li>
+                                <li className={styles.point}>Interaction with developers and testers, training along with the team leader on the project.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
@@ -141,12 +145,14 @@ function CVBlock() {
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>Remote, Ukraine</span>
                                 <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>05/2020 - 08/2021</span>
+                                <span className={styles.period}>04/2020 - 05/2021</span>
                             </div>
                             <ul className={styles.workDesc}>
                                 <li className={styles.point}>Management and optimization of advertising campaigns in different advertising accounts - Facebook, Google, etc.</li>
                                 <li className={styles.point}>Creation of reporting, analysis of the received data. Preparation of a project development plan.</li>
                                 <li className={styles.point}>Additionally, for the position, I interacted with the development department, wrote some functions and made small changes under the supervision of the frontend team lead.</li>
+                                <li className={styles.point}>Management of common marketing activities through several channels, including SEO. Development of a plan for subsidiaries</li>
+                                <li className={styles.point}>Meetings with client, manage and plan product development, creating global product strategy.</li>
                             </ul>
                         </div>
                         <div className={styles.work}>
@@ -158,7 +164,7 @@ function CVBlock() {
                             <div className={styles.workAdd}>
                                 <span className={styles.geo}>On-site, Ukraine</span>
                                 <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>11/2018 - 05/2020</span>
+                                <span className={styles.period}>11/2018 - 03/2020</span>
                             </div>
                             <ul className={styles.workDesc}>
                                 <li className={styles.point}>Management of advertising accounts in Google Ads and Facebook and other services to promote goods and services through client sites.</li>
