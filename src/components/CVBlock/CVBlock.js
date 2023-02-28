@@ -15,9 +15,9 @@ function CVBlock() {
                         It was a joke.
                     </p>
                     <p className={styles.description}>
-                        You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/131Ht4MMTWf5SXnM4WAsKqFTigDwF45Ye/view?usp=sharing'>Google Drive.</a>
+                        You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1nIHmhviUc5SLfasnnJv9JjBu9VCPtQ7i/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=131Ht4MMTWf5SXnM4WAsKqFTigDwF45Ye' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1nIHmhviUc5SLfasnnJv9JjBu9VCPtQ7i' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
