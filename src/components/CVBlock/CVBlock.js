@@ -1,6 +1,81 @@
 import React from 'react'
 import styles from './CVBlock.module.scss'
 
+const dataWithWorkExpirence = [
+    {
+        title: 'Frontend Developer',
+        company: 'Runzy',
+        location: 'Remote, Boston, USA',
+        type: 'Full-time',
+        date: '03/2023 - present',
+        responsibilities: [
+            'Conceptualization, evaluation, and implementation of layouts, custom feature development for users. ',
+            'Active participation in SCRUM and Waterfall work processes.',
+            'Working with Google Analytics events, data processing. Improved pagespeed performance for different pages more than 30-40 points. Working with SEO performance, microdata and accessibility.',
+            'Implements different stuff - widgets, scripts, creating emails templates and others. Fixed bugs in different areas of the code - redux, network connections, UI/UX, etc.',
+            'Working under creating own UI base, improving code readability and quality, code refactoring and improving performance.',
+            'Creating unit tests. Developing interfaces and types for the project, improving components quality and reliability. Code refactore and improving performance.',
+            'Working with MUI and Tailwind for making interactive and performant web UIs',
+            'Implement design features on wordpress site.',
+            'Working with several different APIs like googleAutocomplete, googleMaps. Development UI for calendars and dates.',
+        ]
+    },
+    {
+        title: 'Frontend Developer',
+        company: 'Eco4you',
+        location: 'Remote, ON, Canada',
+        type: 'Contract',
+        date: '05/2022 - 01/2023',
+        responsibilities: [
+            'Participation in the development of the architecture of the front-end part of the application. Build application with in Next.js and TypeScript.',
+            'Taking a project from initial layout to a full responsive, functioning live site. Created logic for rendering, checking data, sending requests and etc.',
+            'Implemented Redux TK to best data and state management, optimizing business logic and porting code.',
+            'Implemented the MUI and module styles to speed up development and create modern page design.',
+            'Worked with backend team under building the admins panel with NEST.js.',
+        ]
+    },
+    {
+        title: 'Junior Frontend Developer',
+        company: 'Halo Lab',
+        location: 'Hybrid, Ukraine',
+        type: 'Full-time',
+        date: '10/2021 - 06/2022',
+        responsibilities: [
+            'Independently wrote 4 projects using React/Redux and other libraries. Singlehandedly wrote an internal project using Sanity CMS + Reac and Next.jst, this allowed to reduce the project development time by more than 30%.',
+            ' Participated in pair programming with 3 engineers, and reviewed team’s code to provide additional perspective and catch previously missed errors. Worked in an agile environment with daily and weekly stand-ups and conducted 2 hours of sprint planning and sprint retrospectives per week.',
+            'Independently designed and built my own SPA using CoinGecko API and React/Redux TK. Implemented a new API that helps create new services in the project. I implemented a Redux TK instead of Redux on a project, which helped to increase code readability and centralize state data. ',
+            'Participated in the development of a large online store, worked in tandem with another developer and tester. He helped develop business logic and render components, set up the state manager, functionality and rendering of components.',
+            'Changed the layout, imports types, and implemented a responsible design for a large project. This made it possible to use the application from tablets and 4k monitors and improved loading speed more than 15%.',
+        ]
+    },
+    {
+        title: 'Digital Marketing Specialist',
+        company: 'Boo.ua',
+        location: 'Remote, Ukraine',
+        type: 'Full-time',
+        date: '05/2020 - 10/2021',
+        responsibilities: [
+            'Management and optimization of advertising campaigns in different advertising accounts - Facebook, Google, etc.',
+            'Creation of reporting, analysis of the received data. Preparation of a project development plan.',
+            'Additionally, for the position, I interacted with the development department, wrote some functions and made small changes under the supervision of the frontend team lead.',
+            'Management of common marketing activities through several channels, including SEO. Development of a plan for subsidiaries',
+            'Meetings with client, manage and plan product development, creating global product strategy.',
+        ]
+    },
+    {
+        title: 'Middle PPC Specialist',
+        company: 'Netpeak',
+        location: 'On-site, Ukraine',
+        type: 'Full-time',
+        date: '11/2018 - 05/2020',
+        responsibilities: [
+            'Management of advertising accounts in Google Ads and Facebook and other services to promote goods and services through client sites.',
+            'Communication with the manager, setting goals and deadlines, creating reports for the client. Conducting planned trainings and rallies to improve their own skills and those of colleagues.',
+            'Installing Google Analytics on the site, setting up goals and conversions to track the effectiveness of advertising campaigns.',
+            'Budget management, competitor analysis, search for strengths and weaknesses of competitors. Creation of a promotion strategy based on data analysis from the client. Setting up services, advertising campaigns, ads and optimizing them.',
+        ]
+    }
+]
 function CVBlock() {
     return (
         <section id='cv' className={styles.cvWrapper}>
@@ -17,7 +92,7 @@ function CVBlock() {
                     <p className={styles.description}>
                         You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1nIHmhviUc5SLfasnnJv9JjBu9VCPtQ7i/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1nIHmhviUc5SLfasnnJv9JjBu9VCPtQ7i' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1YmRVc--um9Hnx3_9RGhIatMYGn3TyFj3' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
@@ -27,27 +102,24 @@ function CVBlock() {
                     <h3 className={styles.cvTitlte}>Oleh Dudko</h3>
                     <h2 className={styles.cvSubTitlte}>Front End Developer</h2>
                     <ul className={styles.contacts}>
-                        <li className={styles.unit}>Romania</li>
-                        {/* <li className={styles.unit}>+380-97-39-86-178</li> */}
+                        <li className={styles.unit}>Europe</li>
                         <li className={styles.unit}>dudkoleg@gmail.com</li>
                         <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/oldu8/'>Linkedin</a></li>
                         <li className={styles.unit}><a target="_blank" rel="noreferrer" href='https://github.com/Oldu8'>GitHub</a></li>
                     </ul>
                     <h4 className={styles.blockTitle}>Summary</h4>
                     <p className={styles.text}>
-                        Front-End developer with 2 years of commercial industry experience of working in several different companies
-                        from Ukraine and Canada. Have proven ability to effectively collaborate with other developers. I’m Ukrainian, and currently live in Romania, looking for remote / on-stie work opportunities.
+                        As a frontend developer with 2+ years of expirience I'm passionate about writing clean and efficient code. I've worked on projects across various industries, including sport sector and finance, that have resulted in improved user experiences and increased business outcomes. Also I have international experience after working in Ukraine, Canada and USA teams.
                         <br />
-                        I have passion for coding so I am
-                        open to changing my tech stack, to receive new skills and get awesome experiences. Ready to apply my
-                        hardworking personality and talent to develop quality solutions and reach clients expectations.
+                        <br />
+                        Along with expertise with React and Next I'm growing up my skills in backend field with Node.js And MongoDB to become more flexible developer.  I'm a committed and adaptable developer, always eager to learn and collaborate with others to create innovative solutions.
                         <br />
                     </p>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Skills</h4>
                         <ul className={styles.skillsList}>
                             <li className={styles.point}>JavaScipt</li>
-                            <li className={styles.point}>React / React Hooks</li>
+                            <li className={styles.point}>React</li>
                             <li className={styles.point}>TypeScript</li>
                             <li className={styles.point}>Node.js / Express</li>
                             <li className={styles.point}>Nest.js</li>
@@ -55,124 +127,31 @@ function CVBlock() {
                             <li className={styles.point}>REST API</li>
                             <li className={styles.point}>MongoDB</li>
                             <li className={styles.point}>JEST</li>
-                            <li className={styles.point}>CSS / SCSS / SASS</li>
+                            <li className={styles.point}>CSS / SCSS</li>
                             <li className={styles.point}>HTML5</li>
-                            <li className={styles.point}>Bootstrap / MUI</li>
-                            <li className={styles.point}>Git / GitHub</li>
+                            <li className={styles.point}>MUI / Tailwind</li>
                         </ul>
                     </div>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Work experience</h4>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Frontend Developer</strong> - Eco4You
-                                </h5>
+                        {dataWithWorkExpirence.map((item, index) => (
+                            <div className={styles.work}>
+                                <div className={styles.workHead}>
+                                    <h5 className={styles.h5Title}><strong>{item.title}</strong> - {item.company}
+                                    </h5>
+                                </div>
+                                <div className={styles.workAdd}>
+                                    <span className={styles.geo}>{item.location}</span>
+                                    <span className={styles.geo}>{item.type}</span>
+                                    <span className={styles.period}>{item.date}</span>
+                                </div>
+                                <ul className={styles.workDesc}>
+                                    {item.responsibilities.map((point, index) => (
+                                        <li className={styles.point}>{point}</li>
+                                    ))}
+                                </ul>
                             </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>Remote, ON, Canada</span>
-                                <span className={styles.geo}>Type: Contract</span>
-                                <span className={styles.period}>07/2022 - 02/2023</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>Participation in the development of the architecture of the front-end part of the application. Wrote the main components of the application in React, Next and TS.</li>
-                                <li className={styles.point}>Taking a project from initial layout to a full responsive, functioning live site. Created functions for rendering, checking data, sending requests and business logic. Code review.</li>
-                                <li className={styles.point}>Development of the entire user interface, work with animation. Installing Redux state management, optimizing business logic and porting code.</li>
-                                <li className={styles.point}>Implemented the MUI and module styles to speed up development and create modern page design.</li>
-                                <li className={styles.point}>Worked with the authorization process for the app, development of the admin’s panel and functionality.</li>
-                                <li className={styles.point}>Worked with legacy code, transferred project’s components to TypeScript. I was engaged in the creation of unit tests and code coverage.</li>
-                                <li className={styles.point}>Created and developed REST API for the app with Node.js / Nest.js and MongoDB.</li>
-                            </ul>
-                        </div>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>FrontEnd Developer</strong> - <a a href='https://www.linkedin.com/company/empowered-futures/' target="_blank" rel="noreferrer">Empowered Futures</a>
-                                </h5>
-                            </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>Remote, AB, Canada</span>
-                                <span className={styles.geo}>Type: Volunteer job</span>
-                                <span className={styles.period}>10/2022 - 01/2023</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>Maintained, reviewed and adjusted code. Debugging and performance measurement.</li>
-                                <li className={styles.point}>Developed mobile and web application using TypeScript, incorporating new features, animations, analytics
-                                    and improving user experience. Participated in meetings and stand ups and worked on a sprint.</li>
-                                <li className={styles.point}>Wrote functions and hooks with React to create functionality according to the figma. Improved the
-                                    readability of the code and increased its performance.</li>
-                            </ul>
-                        </div>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Junior Front End Developer</strong> - <a a href='https://www.linkedin.com/company/halolabteam/' target="_blank" rel="noreferrer">Halo Lab</a>
-                                </h5>
-                            </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>Remote, Ukraine</span>
-                                <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>11/2021 - 06/2022</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>Independently wrote 4 projects using React/Redux and other libraries. Singlehandedly wrote an internal project using Sanity CMS + React and Next.js, this allowed to reduce the project development time by more than 30%</li>
-                                <li className={styles.point}>Participated in pair programming with 3 engineers, and reviewed team’s code to provide additional perspective and catch previously missed errors. Worked in an agile environment with daily and weekly stand-ups and conducted 2 hours of sprint planning and sprint retrospectives per week.</li>
-                                <li className={styles.point}>Independently designed and built my own SPA using CoinGecko API and React/Redux TK. Implemented a new API that helps create new services in the project. I implemented a Redux TK instead of Redux on a project, which helped to increase code readability and centralize state data.</li>
-                                <li className={styles.point}>Participated in the development of a large online store, worked in tandem with another developer and tester. He helped develop business logic and render components, set up the state manager, functionality and rendering of components.</li>
-                                <li className={styles.point}>Changed the layout, imports types, and implemented a responsible design for a large project. This made it possible to use the application from tablets and 4k monitors and improved loading speed more than 15%.</li>
-                            </ul>
-                        </div>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Junior Front End Developer</strong> - Daap developer team
-                                </h5>
-                            </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>On-site, Ukraine</span>
-                                <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>05/2021 - 11/2021</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>UI development  for a platform in web3. Refinement and creation of new layout according to the figma.</li>
-                                <li className={styles.point}>Working with the API, creating separate components and functionality for data processing.</li>
-                                <li className={styles.point}>Created visualization with graphs and bars based on API data, the development of functionality for the converter and data processing.</li>
-                                <li className={styles.point}>Working with Redux for processing, saving data on client and server side</li>
-                                <li className={styles.point}>Interaction with developers and testers, training along with the team leader on the project.</li>
-                            </ul>
-                        </div>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>Middle Internet Marketer</strong> - Boo.ua
-                                </h5>
-                            </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>Remote, Ukraine</span>
-                                <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>04/2020 - 05/2021</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>Management and optimization of advertising campaigns in different advertising accounts - Facebook, Google, etc.</li>
-                                <li className={styles.point}>Creation of reporting, analysis of the received data. Preparation of a project development plan.</li>
-                                <li className={styles.point}>Additionally, for the position, I interacted with the development department, wrote some functions and made small changes under the supervision of the frontend team lead.</li>
-                                <li className={styles.point}>Management of common marketing activities through several channels, including SEO. Development of a plan for subsidiaries</li>
-                                <li className={styles.point}>Meetings with client, manage and plan product development, creating global product strategy.</li>
-                            </ul>
-                        </div>
-                        <div className={styles.work}>
-                            <div className={styles.workHead}>
-                                <h5 className={styles.h5Title}><strong>
-                                    Junior Internet Marketer</strong> - <a a href='https://www.linkedin.com/company/netpeak/' target="_blank" rel="noreferrer">Netpeak</a>
-                                </h5>
-                            </div>
-                            <div className={styles.workAdd}>
-                                <span className={styles.geo}>On-site, Ukraine</span>
-                                <span className={styles.geo}>Type: Full time</span>
-                                <span className={styles.period}>11/2018 - 03/2020</span>
-                            </div>
-                            <ul className={styles.workDesc}>
-                                <li className={styles.point}>Management of advertising accounts in Google Ads and Facebook and other services to promote goods and services through client sites.</li>
-                                <li className={styles.point}>Communication with the manager, setting goals and deadlines, creating reports for the client. Conducting planned trainings and rallies to improve their own skills and those of colleagues.</li>
-                                <li className={styles.point}>Installing Google Analytics on the site, setting up goals and conversions to track the effectiveness of advertising campaigns.</li>
-                                <li className={styles.point}>Budget management, competitor analysis, search for strengths and weaknesses of competitors. Creation of a promotion strategy based on data analysis from the client. Setting up services, advertising campaigns, ads and optimizing them.</li>
-                            </ul>
-                        </div>
+                        ))}
                     </div>
                     <div className={styles.box}>
                         <h4 className={styles.blockTitle}>Education</h4>
