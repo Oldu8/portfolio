@@ -63,3 +63,64 @@
   color: inherit;
   text-decoration: underline;
 }
+
+.aboutWrapper {
+  max-width: 40rem;
+  text-align: justify;
+  padding: 5rem 0;
+  margin: 0 auto;
+  line-height: 1.75rem;
+  @media (max-width: 768px) {
+    padding: 3rem 0;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 4px solid #73cca8;
+}
+
+.textBlocks {
+  margin: 2rem 0;
+  @media (max-width: 768px) {
+    padding: 0 0.5rem;
+  }
+}
+.text {
+  margin-bottom: 2rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(7rem, 14rem));
+  justify-content: space-around;
+  gap: 1rem 2rem;
+  padding: 0px;
+  margin: 1.5rem 0;
+}
+
+.group {
+  padding: 0.3rem;
+  &:hover {
+    outline: #73cca8 2px dashed;
+  }
+}
+.skill {
+  position: relative;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  &::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: #73cca8;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
