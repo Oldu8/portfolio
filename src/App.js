@@ -14,8 +14,8 @@ function App() {
         <Header />
         <Routes>
           <Route exact path='/' element={<HeroBlock />}></Route>
-          <Route exact path='/projects' element={<ProjectsBlock />}></Route>
-          <Route exact path='/cv' element={<CVBlock />}></Route>
+          <Route exact path='/projects/' element={<ProjectsBlock />}></Route>
+          <Route exact path='/cv/' element={<CVBlock />}></Route>
         </Routes>
         <Footer />
       </div>
