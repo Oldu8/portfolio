@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './HeroBlock.module.scss'
 import avatar from "../../assets/img/avatar.jpg"
+import styles from './HeroBlock.module.scss'
 
-function HeroBlock() {
+const HeroBlock = () => {
     return (
         <>
             <section id='hero' className={styles.heroWrapper}>

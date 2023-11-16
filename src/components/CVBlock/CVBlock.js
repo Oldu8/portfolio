@@ -76,7 +76,7 @@ const dataWithWorkExpirence = [
         ]
     }
 ]
-function CVBlock() {
+const CVBlock = () => {
     return (
         <section id='cv' className={styles.cvWrapper}>
             <div className={styles.content}>

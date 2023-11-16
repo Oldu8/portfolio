@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from './ProjectsBlock.module.scss'
 import { projectsArr } from '../../assets/projectsArr.js'
+import styles from './ProjectsBlock.module.scss'
 
 import Card from './Card/Card'
 
-function ProjectsBlock() {
+const ProjectsBlock = () => {
 
     return (
         <section className={styles.projectsWrapper}>
