@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './Header.module.scss'
 
 function Header() {
@@ -7,19 +8,19 @@ function Header() {
             <nav className={styles.nav}>
                 <ul className={styles.list}>
                     <li className={styles.linkLi}>
-                        <a href='/' className={styles.link} title='Home'>
+                        <Link to='/' className={styles.link} title='Home'>
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className={styles.linkLi}>
-                        <a href='/projects/' className={styles.link} title='Projects'>
+                        <Link to='/projects/' className={styles.link} title='Projects'>
                             Projects
-                        </a>
+                        </Link>
                     </li>
                     <li className={styles.linkLi}>
-                        <a href='/cv/' className={styles.link} title='CV'>
+                        <Link to='/cv/' className={styles.link} title='CV'>
                             CV
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
