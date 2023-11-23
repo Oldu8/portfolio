@@ -25,7 +25,7 @@ const dataWithWorkExpirence = [
         company: 'Eco4you',
         location: 'Remote, ON, Canada',
         type: 'Contract',
-        date: '05/2022 - 01/2023',
+        date: '8/2022 - 01/2023',
         responsibilities: [
             'Participation in the development of the architecture of the front-end part of the application. Build application with in Next.js and TypeScript.',
             'Taking a project from initial layout to a full responsive, functioning live site. Created logic for rendering, checking data, sending requests and etc.',
@@ -90,9 +90,9 @@ const CVBlock = () => {
                         It was a joke.
                     </p>
                     <p className={styles.description}>
-                        You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1nIHmhviUc5SLfasnnJv9JjBu9VCPtQ7i/view?usp=sharing'>Google Drive.</a>
+                        You can go throught my CV below, download it in PDF format, or check it on <a className={styles.link} target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1ZgkBONZ0xVeOMG3Me6GyJPGoVWFW3mux/view?usp=sharing'>Google Drive.</a>
                     </p>
-                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1YmRVc--um9Hnx3_9RGhIatMYGn3TyFj3' download='Dudko CV FrontEnd.pdf' >
+                    <a target="_blank" rel="noreferrer" href='https://drive.google.com/uc?export=download&id=1ZgkBONZ0xVeOMG3Me6GyJPGoVWFW3mux' download='Dudko CV FrontEnd.pdf' >
                         <button className={styles.downloadBtn}>
                             Download CV
                         </button>
