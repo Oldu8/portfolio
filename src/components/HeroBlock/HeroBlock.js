@@ -17,7 +17,7 @@ const HeroBlock = () => {
                     <p className={styles.description}>
                         I'm a FrontEnd Developer  -  specializing in creating responsive websites and applications.
                         <br />
-                        I was born in Ukraine, but currently I live in Eastern Europe.
+                        I'm ukrainian, currently live in Eastern Europe.
                         <br />
                         <br />
                         I am looking for full-time and remote job opportunities to gain new coding experience and continue to be inspired by the world of web development.
@@ -31,19 +31,16 @@ const HeroBlock = () => {
                     </h2>
                     <ul className={styles.textBlocks}>
                         <li className={styles.text}>
-                            Hello, my name is Oleh and I discovered coding a couple of years ago. My discovery was related to the fact that I can write simple code and these code lines turn into real live sites. Since then, coding has become a part of my life and soon my job.
-                        </li>
-                        <li className={styles.text}>
                             My fascination with the web began with, unexpectedly, the work of a marketer. It took me a while to understood that I want to build website rather then promote them. So in 2018-2019 I took development courses and then I have started working as a web developer.
                         </li>
                         <li className={styles.text}>
-                            Over the past 2 years, I have had the fun and pleasere of working for several companies, everything started from small crypto startup - Daap developer team, then big outsource company Halo Lab, then war and  gup without work and I get contract with canadian startup Eco4You.
+                            Over the past 2 years, I have had the fun and pleasere of working for several companies, everything started with a practice in small crypto startup - Daap developer team, then big outsource company Halo Lab, then war and  gup without work and I get contract with canadian startup Eco4You.
                         </li>
                         <li className={styles.text}>
                             During this time, I improved knowledge of JavaScript and TypeScript, learned how to create SPA apps using React, understood how to create simple backend with Node.js and Express or using CMS, made a REST API and worked with many other technologies, libraries and services.
                         </li>
                         <li className={styles.text}>
-                            Not the longest way bring me here, creating this portfolio to find the job of my dream. The best option for me is small-medium product company in fin-tech area. I will be happy to find myself in small and friendly development team, creating intresting crypto application.
+                            For now, I am working in Runzy, this is inspired startup, where we are trying to create great platform for runners from USA and Canada.
                         </li>
                         <li>
                             So here are a technologies I've been working with for a while:
