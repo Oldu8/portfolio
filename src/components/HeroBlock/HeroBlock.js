@@ -15,12 +15,13 @@ const HeroBlock = () => {
             <img src={avatar} className={styles.img} alt="my avatar"></img>
           </div>
           <p className={styles.description}>
-            I'm a Web Developer - specializing in creating responsive websites
-            and applications.
+            I'm a Web Developer with 3+ years of experience - specializing in
+            creating any kind of projects in web.
             <br />
-            I'm ukrainian, currently live in Eastern Europe.
+            I'm ukrainian, currently live in Eastern Europe. Ready to Relocate
+            to mostly anywhere.
             <br />
-            <br />I am open to full-time and remote FrontEnd or FullStack job
+            <br />I am open to full-time and remote Front-End or Full Stack job
             opportunities to gain new coding experience and continue to be
             inspired by the world of web development.
           </p>
@@ -31,18 +32,18 @@ const HeroBlock = () => {
           <h2 className={styles.title}>About Me</h2>
           <ul className={styles.textBlocks}>
             <li className={styles.text}>
-              My fascination with the web began with, unexpectedly, the work of
-              a marketer. It took me a while to understood that I want to build
-              website rather then promote them. So in 2018-2019 I took
-              development courses and then I have started working as a FrontEnd
-              developer.
+              My fascination with web development starts from my marketing job.
+              It took me a while to understand that I want to build website
+              rather then promote them. So, I took development courses and then
+              I have started working as a developer.
             </li>
             <li className={styles.text}>
-              Over the past 3 years, I have had the fun and pleaser of working
-              for several companies, everything started with a practice in small
-              crypto startup - Daap developer team, then big outsource company
-              Halo Lab, then war and gup without work and I get contract with
-              canadian startup Eco4You.
+              Over the past years, I have had the fun and pleaser of working in
+              some companies - startups, agencies, and big companies from North
+              America and Europe. For now, I am working in Runzy, this is
+              inspired startup, where we are trying to create great platform for
+              runners from North America.
+
             </li>
             <li className={styles.text}>
               During this time, I improved knowledge of JavaScript and
@@ -53,19 +54,17 @@ const HeroBlock = () => {
               list of my technologies and develop admin part of Runzy.
             </li>
             <li className={styles.text}>
-              For now, I am working in Runzy, this is inspired startup, where we
-              are trying to create great platform for runners from USA and
-              Canada. You can check it and use searching and registering tools
-              for any event in USA or Canada.
+              Aside from main work, I time to time create personal projects,
+              some of them you can see in the projects section. I've already
+              build extension, web3 portfolio, blog and admin panel. This is
+              actually the thing that keeps me loving coding.
             </li>
             <li className={styles.text}>
               And some personal information aside from professional. I quick
-              learner and curious person. So I interesting in marketing and
+              learner and curious person. So, I interesting in marketing and
               promotion of websites and personal projects. Also, I involved in
               crypto, so I take a part in different crypto projects and working
-              with cryptocurrencies. And for sure im interesting about youtube,
-              how to create videos and make them popular. Maybe someday I will
-              share the my content.
+              with web3.
             </li>
             <li>
               So here are a technologies I've been working with for a while:
