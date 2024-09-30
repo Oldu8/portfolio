@@ -43,6 +43,7 @@ const HeroBlock = () => {
               America and Europe. For now, I am working in Runzy, this is
               inspired startup, where we are trying to create great platform for
               runners from North America.
+
             </li>
             <li className={styles.text}>
               During this time, I improved knowledge of JavaScript and
