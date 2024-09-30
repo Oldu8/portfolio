@@ -1,13 +1,18 @@
-import React from 'react'
-import styles from './Footer.module.scss'
+import React from "react";
+import styles from "./Footer.module.scss";
 
-function Footer() {
-    return (
-        <footer className={styles.footer}>
-            <h3 className={styles.title}>Thanks for your time!</h3>
-            <a className={styles.btn} href="/#hero">Up!</a>
-        </footer>
-    )
+function Footer({ scrollRef }) {
+  return (
+    <footer className={styles.footer}>
+      <h3 className={styles.title}>Thanks for your time!</h3>
+      <button
+        className={styles.btn}
+        onClick={() => scrollRef.current.scrollIntoView({ behavior: "smooth" })}
+      >
+        Up!
+      </button>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

@@ -10,9 +10,11 @@ const ProjectsBlock = () => {
       <div className={styles.content}>
         <h2 className={styles.title}>My projects portfolio</h2>
         <p className={styles.description}>
-          Before you check I need to say, that I more than a year didn't create
-          any valuable project that I want to share, so here some projects that
-          I created aside from main job. So you can find something interesting.
+          I don't have much times for creating projects all the time. But here
+          what i've done for last 3-4 years. So, some of them I did for
+          interview task or to learn technologies. And only some of them to have
+          fun, I think this is most valuable and interesting ones. Im talking
+          about extension AdsToArt, GPS calculator and Sea battle board game.
         </p>
         <div className={styles.projectsCards}>
           {projectsArr.map((i) => {

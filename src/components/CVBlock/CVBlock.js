@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CVBlock.module.scss";
 
-const dataWithWorkExpirence = [
+const dataWithWorkExperience = [
   {
     title: "FullStack Developer",
     company: "Runzy",
@@ -75,6 +75,7 @@ const dataWithWorkExpirence = [
     ],
   },
 ];
+
 const CVBlock = () => {
   return (
     <section id="cv" className={styles.cvWrapper}>
@@ -93,7 +94,7 @@ const CVBlock = () => {
               className={styles.link}
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1y73oQC-ZVQ8T4kD_DyVvcoL5vUmqdDr7/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gyRe0pm9F-kF9tmxApghjyXlQsTxtf-_/view?usp=sharing"
             >
               Google Drive.
             </a>
@@ -101,7 +102,7 @@ const CVBlock = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/uc?export=download&id=1y73oQC-ZVQ8T4kD_DyVvcoL5vUmqdDr7"
+            href="https://drive.google.com/uc?export=download&id=1gyRe0pm9F-kF9tmxApghjyXlQsTxtf-_"
             download="Dudko CV FrontEnd.pdf"
           >
             <button className={styles.downloadBtn}>Download CV</button>
@@ -109,7 +110,7 @@ const CVBlock = () => {
         </div>
         <article className={styles.paper}>
           <h3 className={styles.cvTitlte}>Oleh Dudko</h3>
-          <h2 className={styles.cvSubTitlte}>Front End Developer</h2>
+          <h2 className={styles.cvSubTitlte}>Front End Engineer</h2>
           <ul className={styles.contacts}>
             <li className={styles.unit}>Europe</li>
             <li className={styles.unit}>dudkoleg@gmail.com</li>
@@ -134,12 +135,12 @@ const CVBlock = () => {
           </ul>
           <h4 className={styles.blockTitle}>Summary</h4>
           <p className={styles.text}>
-            Highly motivated Front-End Developer with 2.5+ years of experience
+            Highly motivated Front-End Developer with 3+ years of experience
             building interactive and performant web applications using React,
             Next.js, and TypeScript. Proven ability to deliver user-centric
             solutions, collaborating effectively in agile environments. Eager to
             contribute my skills to a challenging and rewarding Front-End
-            developer role in Central Europe.
+            developer role in North America or Europe.
             <br />
             <br />
             Along with expertise with React and Next I'm working and develop my
@@ -165,8 +166,8 @@ const CVBlock = () => {
           </div>
           <div className={styles.box}>
             <h4 className={styles.blockTitle}>Work experience</h4>
-            {dataWithWorkExpirence.map((item) => (
-              <div className={styles.work}>
+            {dataWithWorkExperience.map((item) => (
+              <div className={styles.work} key={item.company}>
                 <div className={styles.workHead}>
                   <h5 className={styles.h5Title}>
                     <strong>{item.title}</strong> - {item.company}
@@ -179,7 +180,9 @@ const CVBlock = () => {
                 </div>
                 <ul className={styles.workDesc}>
                   {item.responsibilities.map((point, index) => (
-                    <li className={styles.point}>{point}</li>
+                    <li className={styles.point} key={index}>
+                      {point}
+                    </li>
                   ))}
                 </ul>
               </div>

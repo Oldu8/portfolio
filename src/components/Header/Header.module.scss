@@ -33,7 +33,10 @@ nav {
 .link {
   display: block;
   height: 3rem;
-  padding: 0 1rem;
+  padding: 0;
+  @media (max-width: 425px) {
+    padding: 0 1rem;
+  }
   color: #dbe8d4;
   line-height: 3em;
   &:hover {
