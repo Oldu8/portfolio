@@ -69,20 +69,19 @@
   left: 0%;
 }
 
-.techList {
-  padding: 1rem 0;
+.techList strong {
   color: #73cca8;
   text-align: start;
   width: 100%;
   font-weight: 600;
 }
-
 .infoText {
-  padding: 0 1.7rem;
-}
-.subtitle {
-  text-align: center;
-  // padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-items: flex-start;
+  padding-left: 12px;
 }
 
 .info {
@@ -90,6 +89,7 @@
   flex-flow: column nowrap;
   justify-content: space-between;
   height: 322px;
+  padding-top: 8px;
   @media (max-width: 1024px) {
     height: initial;
   }
