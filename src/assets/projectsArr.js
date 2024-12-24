@@ -7,8 +7,18 @@ import Colors from "./projectsImg/Colors.png";
 import SC from "./projectsImg/SC.png";
 import SeaBattle from "./projectsImg/SeaBattle.png";
 import AdsToArt from "./projectsImg/AdsToArt.png";
+import ToxicBingo from "./projectsImg/toxicBingo.png";
 
 export const projectsArr = [
+  {
+    title: "Toxic Bingo Game",
+    img: ToxicBingo,
+    description:
+      "Did this simple project to have fun and to try how Vue framework works. Here you can decide how many phrases should be on the board, fill them with text, and calc how much each of them was clicked. ",
+    techs: "Vue, TypeScript, Vite",
+    link: "https://toxic-bingo.netlify.app/",
+    year: "2024",
+  },
   {
     title: "AdsToArt extension",
     img: AdsToArt,
