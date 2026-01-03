@@ -9,21 +9,21 @@ const HeroBlock = () => {
         <div className={styles.content}>
           <hgroup className={styles.headers}>
             <h1 className={styles.title}>Oleh Dudko</h1>
-            <h2 className={styles.subTitle}>FrontEnd Developer</h2>
+            <h2 className={styles.subTitle}>Software Engineer</h2>
           </hgroup>
           <div className={styles.photoContainer}>
             <img src={avatar} className={styles.img} alt="my avatar"></img>
           </div>
           <p className={styles.description}>
-            I'm a Web Developer with 3+ years of experience - specializing in
-            creating any kind of projects in web.
+            I'm a Full Stack Engineer with 4+ years of experience - specializing
+            in creating scalable, user-focused web applications.
             <br />
-            I'm ukrainian, currently live in Eastern Europe. Ready to Relocate
-            to mostly anywhere.
+            I'm ukrainian, currently live in Oviedo, Spain. Open to
+            opportunities in Spain or Europe with openness to remote work.
             <br />
-            <br />I am open to full-time and remote Front-End or Full Stack job
-            opportunities to gain new coding experience and continue to be
-            inspired by the world of web development.
+            <br />I am open to full-time and remote Full Stack or Software
+            Engineer opportunities to gain new coding experience and continue to
+            be inspired by the world of web development.
           </p>
         </div>
       </section>
@@ -38,20 +38,19 @@ const HeroBlock = () => {
               I have started working as a developer.
             </li>
             <li className={styles.text}>
-              Over the past years, I have had the fun and pleaser of working in
+              Over the past years, I have had the fun and pleasure of working in
               some companies - startups, agencies, and big companies from North
-              America and Europe. For now, I am working in Runzy, this is
-              inspired startup, where we are trying to create great platform for
-              runners from North America.
-
+              America and Europe. Currently, I am working at Growth Minded,
+              where I'm building CRM platform with AI-driven funnel generation.
             </li>
             <li className={styles.text}>
               During this time, I improved knowledge of JavaScript and
-              TypeScript, learned how to create SPA apps using React, understood
-              how to create simple backend with Node.js and Express or using
-              CMS, made a REST API and worked with many other technologies,
-              libraries and services. For now I also added PHP and Laravel to
-              list of my technologies and develop admin part of Runzy.
+              TypeScript, learned how to create SPA apps using React and
+              Next.js, understood how to create backend with Node.js,
+              Express.js, Nest.js, PHP and Laravel, made REST APIs and worked
+              with many other technologies, libraries and services. I've also
+              worked with SSR, SSG for optimization, Chrome Extensions, and
+              various testing frameworks.
             </li>
             <li className={styles.text}>
               Aside from main work, I time to time create personal projects,
@@ -73,30 +72,43 @@ const HeroBlock = () => {
                   Backend:
                   <p className={styles.skill}>PHP</p>
                   <p className={styles.skill}>Laravel 10</p>
-                  <p className={styles.skill}>Node / Express</p>
+                  <p className={styles.skill}>Node.js</p>
+                  <p className={styles.skill}>Express.js</p>
                   <p className={styles.skill}>Nest.js</p>
                 </li>
                 <li className={styles.group}>
                   Frontend:
                   <p className={styles.skill}>JavaScript</p>
-                  <p className={styles.skill}>React</p>
                   <p className={styles.skill}>TypeScript</p>
+                  <p className={styles.skill}>React</p>
                   <p className={styles.skill}>Next.js</p>
                   <p className={styles.skill}>Redux</p>
-                  <p className={styles.skill}>CSS / SCSS</p>
+                  <p className={styles.skill}>SCSS</p>
+                  <p className={styles.skill}>MUI</p>
+                  <p className={styles.skill}>Tailwind</p>
                   <p className={styles.skill}>HTML5</p>
+                  <p className={styles.skill}>Svelte.js</p>
+                  <p className={styles.skill}>SvelteKit</p>
                 </li>
                 <li className={styles.group}>
                   Database:
+                  <p className={styles.skill}>SQL</p>
                   <p className={styles.skill}>PostgreSQL</p>
-                  <p className={styles.skill}>MySQL</p>
                   <p className={styles.skill}>MongoDB</p>
                 </li>
                 <li className={styles.group}>
                   Other tools:
+                  <p className={styles.skill}>Chrome Extension</p>
                   <p className={styles.skill}>Git</p>
-                  <p className={styles.skill}>JEST, Cypress</p>
-                  <p className={styles.skill}>Bootstrap / MUI </p>
+                  <p className={styles.skill}>Jest</p>
+                  <p className={styles.skill}>Cypress</p>
+                  <p className={styles.skill}>Dusk</p>
+                  <p className={styles.skill}>REST API</p>
+                  <p className={styles.skill}>Postman</p>
+                  <p className={styles.skill}>Insomnia</p>
+                  <p className={styles.skill}>Docker</p>
+                  <p className={styles.skill}>Figma</p>
+                  <p className={styles.skill}>Netlify</p>
                 </li>
               </ul>
             </li>

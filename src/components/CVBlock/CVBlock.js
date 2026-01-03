@@ -3,20 +3,31 @@ import styles from "./CVBlock.module.scss";
 
 const dataWithWorkExperience = [
   {
-    title: "FullStack Developer",
-    company: "Runzy",
-    location: "Remote, Boston, USA",
+    title: "Software Engineer",
+    company: "Growth Minded",
+    location: "Remote, Alexandria, VA, USA",
     type: "Full-time",
-    date: "03/2023 - present",
+    date: "06/2025 - Present",
     responsibilities: [
-      "Conceptualized, evaluated, and implemented layouts and custom features for React, Next.js, and TypeScript projects, showcasing strong conceptualization and implementation skills.",
-      "Collaborated on Google Analytics events and data processing, achieving a substantial improvement in page speed performance by over 30-40 points. Demonstrated expertise in SEO performance, microdata, and accessibility.",
-      "Implemented various elements, including widgets, scripts, and email templates, addressing bugs across different areas such as Redux, network connections, and UI/UX.",
-      "Contributed to the development of the company's UI base, prioritizing code readability, quality, and performance through extensive code refactoring.Implements different stuff - widgets, scripts, creating emails templates and others.",
-      "Ensured code reliability by creating comprehensive tests using JEST and Cypress. Actively participated in agile workflows, engaging in code reviews, including pair programming sessions.",
-      "Proficiently worked with Material-UI (MUI) and Tailwind to craft interactive and high-performance web UIs within the React JS framework.",
-      "Expanded skills into the backend realm by developing server-side logic and calculations with PHP, adhering to the MVC pattern for streamlined code organization.",
-      "Implemented novel features through the extension of database tables with PostgreSQL, seamlessly updating corresponding routes for enhanced integration.",
+      "Created a custom HubSpot CRM extension with Express.js backend (Vercel) to process deal data and return file links for built documents, based on type and data from deal.",
+      "Built admin panel and app for AI-driven funnel generation: collected user data, combined it with prompts, and generated personalized output.",
+    ],
+  },
+  {
+    title: "Full Stack Engineer",
+    company: "Runzy",
+    location: "Remote, Boston, MA, USA",
+    type: "Full-time",
+    date: "03/2023 - 06/2025",
+    responsibilities: [
+      "Worked with SSR, SSG for optimization page speed load. Optimized page speed performance by 30-40 points through strategic SEO improvements, microdata implementation, and fine-tuning.",
+      "Developed dynamic, responsive layouts and custom features for Next.js, and TypeScript applications.",
+      "Implemented scalable UI/UX features using Material-UI and Tailwind, delivering high-performance UI.",
+      "Boosted code quality and maintainability through refactoring and testing with Jest, Cypress on frontend and dusk on Backend. Made unit and feature tests.",
+      "Architected new backend features and extended existing entities using Laravel 10 and PostgreSQL, ensuring seamless integration with APIs and admin panel enhancements.",
+      "Delivered e2e feature development, seamlessly handling both frontend and backend tasks independently.",
+      "Built features on backend - migrations, model extensions, authentication and api improvements.",
+      "Led agile sprints as Scrum Master, conducted thorough code reviews, and contributed to hiring processes to build high-performing teams.",
     ],
   },
   {
@@ -94,7 +105,7 @@ const CVBlock = () => {
               className={styles.link}
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1gyRe0pm9F-kF9tmxApghjyXlQsTxtf-_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1zERp8NFyzVkS3QZBZP8JgMPqWEBHYUG6/view?usp=sharing"
             >
               Google Drive.
             </a>
@@ -102,17 +113,17 @@ const CVBlock = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/uc?export=download&id=1gyRe0pm9F-kF9tmxApghjyXlQsTxtf-_"
-            download="Dudko CV FrontEnd.pdf"
+            href="https://drive.google.com/uc?export=download&id=1zERp8NFyzVkS3QZBZP8JgMPqWEBHYUG6"
+            download="Dudko CV Full Stack.pdf"
           >
             <button className={styles.downloadBtn}>Download CV</button>
           </a>
         </div>
         <article className={styles.paper}>
           <h3 className={styles.cvTitlte}>Oleh Dudko</h3>
-          <h2 className={styles.cvSubTitlte}>Front End Engineer</h2>
+          <h2 className={styles.cvSubTitlte}>Software Engineer</h2>
           <ul className={styles.contacts}>
-            <li className={styles.unit}>Europe</li>
+            <li className={styles.unit}>Oviedo, Spain</li>
             <li className={styles.unit}>dudkoleg@gmail.com</li>
             <li className={styles.unit}>
               <a
@@ -135,33 +146,39 @@ const CVBlock = () => {
           </ul>
           <h4 className={styles.blockTitle}>Summary</h4>
           <p className={styles.text}>
-            Highly motivated Front-End Developer with 3+ years of experience
-            building interactive and performant web applications using React,
-            Next.js, and TypeScript. Proven ability to deliver user-centric
-            solutions, collaborating effectively in agile environments. Eager to
-            contribute my skills to a challenging and rewarding Front-End
-            developer role in North America or Europe.
-            <br />
-            <br />
-            Along with expertise with React and Next I'm working and develop my
-            skills in backend field with PHP and Laravel 10 to become more
-            flexible developer. I'm a committed and adaptable developer, always
-            eager to learn and collaborate with others to create innovative
-            solutions. But my main specialty is Frontend.
+            Highly motivated Full Stack Engineer with 4 years of experience
+            specializing in web development using React, Next.js, and
+            TypeScript, complemented by backend expertise in PHP, Laravel, and
+            Node.js, Express.js. Skilled in delivering scalable, user-focused
+            solutions within agile environments. Proactive and detail-oriented,
+            with a background in marketing - SEO, PPC. Seeking exciting
+            opportunities in Spain or Europe with openness to remote work.
             <br />
           </p>
           <div className={styles.box}>
             <h4 className={styles.blockTitle}>Skills</h4>
             <ul className={styles.skillsList}>
-              <li className={styles.point}>JavaScript, TypeScript</li>
-              <li className={styles.point}>React, Next.js</li>
-              <li className={styles.point}>Redux, Redux TK</li>
-              <li className={styles.point}>JEST, Cypress</li>
-              <li className={styles.point}>CSS, SCSS, MUI, Tailwind</li>
-              <li className={styles.point}>HTML5</li>
-              <li className={styles.point}>Node.js, Express</li>
-              <li className={styles.point}>REST API</li>
-              <li className={styles.point}>MySQL, PostgreSQL, MongoDB</li>
+              <li className={styles.point}>
+                Front-end: React, Next.js, Redux, JavaScript, TypeScript, SCSS,
+                MUI, Tailwind, HTML5
+              </li>
+              <li className={styles.point}>
+                Back-end: PHP, Laravel 10, Node.js, Nest.js, Express.js
+              </li>
+              <li className={styles.point}>
+                Other technologies: Chrome Extension, Svelte.js, SvelteKit
+              </li>
+              <li className={styles.point}>
+                DataBase: SQL, PostgreSQL, MongoDB
+              </li>
+              <li className={styles.point}>Testing: Jest, Cypress, Dusk</li>
+              <li className={styles.point}>
+                Tools: Netlify, REST API, Git, Postman, Insomnia, Docker, Figma
+              </li>
+              <li className={styles.point}>
+                Foreign languages: English - proficiency, Ukrainian - native,
+                Russian - native, Spanish - elementary
+              </li>
             </ul>
           </div>
           <div className={styles.box}>
@@ -191,8 +208,8 @@ const CVBlock = () => {
           <div className={styles.box}>
             <h4 className={styles.blockTitle}>Education</h4>
             <h5 className={styles.edTitle}>
-              <strong>Odesa I.I. Mechnikov National University</strong>{" "}
-              Bachelor, Management
+              <strong>Odessa Mechnikov National University</strong> Master,
+              Management
               <ul className={styles.workDesc}>
                 <li className={styles.point}>
                   Major in Marketing and Management with minor in web
@@ -200,7 +217,7 @@ const CVBlock = () => {
                 </li>
               </ul>
             </h5>
-            <span className={styles.period}>2013 - 2019</span>
+            <span className={styles.period}>09/2013 - 12/2019</span>
           </div>
           <div className={styles.box}>
             <h4 className={styles.blockTitle}>Licence and Certifications </h4>
