@@ -40,6 +40,87 @@
   }
 }
 
+.toggle {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.toggleButton {
+  font-size: 1rem;
+  background-color: inherit;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid #73cca8;
+  color: #dbe8d4;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: rgba(115, 204, 168, 0.2);
+  }
+}
+
+.toggleButtonActive {
+  @extend .toggleButton;
+  background-color: #73cca8;
+  color: #1a1a1a;
+}
+
+.disclaimer {
+  max-width: 40rem;
+  margin: 1.5rem auto;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.9;
+  @media (max-width: 425px) {
+    max-width: 90vw;
+    font-size: 0.9rem;
+  }
+}
+
+.commercialList {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+.commercialItem {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(219, 232, 212, 0.2);
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.commercialLink {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #73cca8;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.commercialDescription {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #dbe8d4;
+}
+
 .filterPanel {
   max-width: 40rem;
   margin: 2rem auto;

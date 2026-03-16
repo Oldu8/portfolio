@@ -8,8 +8,18 @@ import SC from "./projectsImg/SC.png";
 import SeaBattle from "./projectsImg/SeaBattle.png";
 import AdsToArt from "./projectsImg/AdsToArt.png";
 import ToxicBingo from "./projectsImg/toxicBingo.png";
+import Freezlet from "./projectsImg/freezlet.png";
 
 export const projectsArr = [
+  {
+    title: "Freezlet",
+    img: Freezlet,
+    description:
+      "After I immigrated to Spain, I decided to create a project to repeteadly learn new words. So i create simple website to repeat words from my dictionary. I wanted to grow this project, but then decided to spend time on spanish classes instead of developing analog of quizlet and anki.",
+    techs: "Next.js, TypeScript",
+    link: "https://oldu-freezlet.netlify.app/",
+    year: "2025",
+  },
   {
     title: "Toxic Bingo Game",
     img: ToxicBingo,
