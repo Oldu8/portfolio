@@ -5,29 +5,48 @@ const dataWithWorkExperience = [
   {
     title: "Software Engineer",
     company: "Growth Minded",
-    location: "Remote, Alexandria, VA, USA",
+    location: "Alexandria, Virginia, United States · Remote",
     type: "Full-time",
-    date: "06/2025 - Present",
+    date: "Jun 2025 - Present",
     responsibilities: [
-      "Created a custom HubSpot CRM extension with Express.js backend (Vercel) to process deal data and return file links for built documents, based on type and data from deal.",
-      "Built admin panel and app for AI-driven funnel generation: collected user data, combined it with prompts, and generated personalized output.",
+      "Created a registration funnel with payment methods using GraphQL, TypeScript, and Next.js. Deployed a working project in less than three months using Cursor.",
+      "Built a backend service that aggregates data from Klaviyo and Boulevard CRM systems, stores it in a DB, processes it, and executes cron jobs for various business logic. Complete backend service development on Node.js, Express.js, PostgreSQL, Prisma, and deployment to Vercel.",
+      "Developed a custom HubSpot Extension + Backend Integration that fetches deal data, sends it to a custom Express.js backend (deployed on Vercel), and returns a link to a dynamically generated file stored on the server.",
+      "Implemented full Google Enhanced Ecommerce tracking in a Ruby on Rails project, including product views, add-to-cart, and transaction events — with complete setup both in code and GA4.",
+      "Involved in creating small and medium-sized projects from scratch, architecture planning, and connecting various API services including Stripe, Sentry, and Google Maps API. Focused on developing project security and error handling through services.",
     ],
   },
   {
     title: "Full Stack Engineer",
     company: "Runzy",
-    location: "Remote, Boston, MA, USA",
+    location: "Boston, Massachusetts, United States · Remote",
     type: "Full-time",
-    date: "03/2023 - 06/2025",
+    date: "Feb 2024 - Jun 2025",
     responsibilities: [
-      "Worked with SSR, SSG for optimization page speed load. Optimized page speed performance by 30-40 points through strategic SEO improvements, microdata implementation, and fine-tuning.",
-      "Developed dynamic, responsive layouts and custom features for Next.js, and TypeScript applications.",
-      "Implemented scalable UI/UX features using Material-UI and Tailwind, delivering high-performance UI.",
-      "Boosted code quality and maintainability through refactoring and testing with Jest, Cypress on frontend and dusk on Backend. Made unit and feature tests.",
-      "Architected new backend features and extended existing entities using Laravel 10 and PostgreSQL, ensuring seamless integration with APIs and admin panel enhancements.",
-      "Delivered e2e feature development, seamlessly handling both frontend and backend tasks independently.",
-      "Built features on backend - migrations, model extensions, authentication and api improvements.",
-      "Led agile sprints as Scrum Master, conducted thorough code reviews, and contributed to hiring processes to build high-performing teams.",
+      "Implemented new UI features and developed robust business logic for the registration module using React and Next.js. Conducted code refactoring to enhance project scalability, maintainability, and code readability.",
+      "Initiated and executed standalone projects and pages using TypeScript, incorporating a data management system with Redux Toolkit.",
+      "Wrote tests with Cypress to ensure code quality and improve page loading speed. Collaborated with colleagues to enhance overall user experience through bug-fixing processes.",
+      "Enhanced UI/UX for the admin panel, streamlining event flow control for business partners using Laravel 10. Incorporated key features to support business operations effectively.",
+      "Implemented new features by extending database tables with PostgreSQL and updating corresponding routes for seamless integration.",
+      "Developed new functionalities by creating server-side logic and calculations with PHP, following the MVC pattern for efficient code organization.",
+    ],
+  },
+  {
+    title: "Frontend Engineer",
+    company: "Runzy",
+    location: "Boston, Massachusetts, United States · Remote",
+    type: "Full-time",
+    date: "Mar 2023 - Feb 2024",
+    responsibilities: [
+      "Conceptualized, evaluated, and implemented layouts and custom feature development for users. Active participation in agile work processes.",
+      "Worked with Google Analytics events and data processing. Improved Pagespeed performance for different pages by more than 30-40 points. Worked with SEO performance, microdata, and accessibility.",
+      "Implemented different features like widgets, scripts, email templates, and others. Fixed bugs in different areas including Redux, network connections, UI/UX.",
+      "Worked on creating an internal UI base, improving code readability and quality, code refactoring, and improving performance.",
+      "Created unit tests with Jest. Built the system for end-to-end (e2e) tests with Cypress.",
+      "Worked with MUI and Tailwind for making interactive and performant web UIs with React.js.",
+      "Worked with several APIs including Google Autocomplete and Google Maps. Developed UI with calendars and dates.",
+      "Developed interfaces and types for the project, improving components quality and reliability. Worked on creating a reliable build.",
+      "Built several brand new websites for different component purposes. Created a web version of the application with full functional authorization, calendar, and CRUD events.",
     ],
   },
   {
@@ -94,9 +113,10 @@ const CVBlock = () => {
         <h2 className={styles.title}>Curriculum Vitae</h2>
         <div className={styles.intro}>
           <p className={styles.description}>
-            Worked somewhere, did something, studied somehow
-            <br />
-            It was a joke.
+            Full Stack Engineer with 5 years of experience specializing
+            in Frontend development with React and Next.js. I build modern web
+            applications, integrations, and internal tools with a strong focus
+            on performance and scalability.
           </p>
           <p className={styles.description}>
             You can go through my CV below, download it in PDF format, or check
@@ -105,7 +125,7 @@ const CVBlock = () => {
               className={styles.link}
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1zERp8NFyzVkS3QZBZP8JgMPqWEBHYUG6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1E4cXhtyNirXbDm8e48uOi5VAddkXBaLN/view?usp=sharing"
             >
               Google Drive.
             </a>
@@ -113,7 +133,7 @@ const CVBlock = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/uc?export=download&id=1zERp8NFyzVkS3QZBZP8JgMPqWEBHYUG6"
+            href="https://drive.google.com/uc?export=download&id=1E4cXhtyNirXbDm8e48uOi5VAddkXBaLN"
             download="Dudko CV Full Stack.pdf"
           >
             <button className={styles.downloadBtn}>Download CV</button>
@@ -146,38 +166,48 @@ const CVBlock = () => {
           </ul>
           <h4 className={styles.blockTitle}>Summary</h4>
           <p className={styles.text}>
-            Highly motivated Full Stack Engineer with 4 years of experience
-            specializing in web development using React, Next.js, and
-            TypeScript, complemented by backend expertise in PHP, Laravel, and
-            Node.js, Express.js. Skilled in delivering scalable, user-focused
-            solutions within agile environments. Proactive and detail-oriented,
-            with a background in marketing - SEO, PPC. Seeking exciting
-            opportunities in Spain or Europe with openness to remote work.
+            I have experience building small and medium-sized products from
+            scratch, designing system architecture, integrating external APIs,
+            and developing both frontend and backend services. I enjoy working
+            at the intersection of engineering, product, and growth, building
+            systems that combine solid software engineering with business
+            impact.
             <br />
           </p>
           <div className={styles.box}>
             <h4 className={styles.blockTitle}>Skills</h4>
             <ul className={styles.skillsList}>
               <li className={styles.point}>
-                Front-end: React, Next.js, Redux, JavaScript, TypeScript, SCSS,
-                MUI, Tailwind, HTML5
+                <strong>Core Technologies:</strong> JavaScript / TypeScript,
+                React / Next.js, Node.js / Express, PHP / Laravel, PostgreSQL /
+                Prisma / MongoDB, Redux Toolkit / RTK Query / Zustand
               </li>
               <li className={styles.point}>
-                Back-end: PHP, Laravel 10, Node.js, Nest.js, Express.js
+                <strong>Frontend Development:</strong> React & Next.js
+                applications, performance optimization and PageSpeed
+                improvements, SEO, accessibility, and microdata, UI development
+                with MUI and Tailwind, testing with Jest and Cypress
               </li>
               <li className={styles.point}>
-                Other technologies: Chrome Extension, Svelte.js, SvelteKit
+                <strong>Backend & Integrations:</strong> REST API development
+                and backend services, CRM and third-party integrations, cron
+                jobs and data processing services, deployment and serverless
+                platforms (Vercel)
               </li>
               <li className={styles.point}>
-                DataBase: SQL, PostgreSQL, MongoDB
+                <strong>Platforms & APIs:</strong> Stripe (payments & billing),
+                HubSpot CRM (custom extensions & integrations), Klaviyo and
+                Boulevard CRM, Google Maps / Google Autocomplete API, Google
+                Analytics / GA4 / Enhanced Ecommerce
               </li>
-              <li className={styles.point}>Testing: Jest, Cypress, Dusk</li>
               <li className={styles.point}>
-                Tools: Netlify, REST API, Git, Postman, Insomnia, Docker, Figma
+                <strong>Observability & Reliability:</strong> Error monitoring
+                with Sentry, logging, debugging, and production monitoring,
+                secure API integrations and error handling
               </li>
               <li className={styles.point}>
-                Foreign languages: English - proficiency, Ukrainian - native,
-                Russian - native, Spanish - elementary
+                <strong>Foreign languages:</strong> English - proficiency,
+                Ukrainian - native, Russian - native, Spanish - elementary
               </li>
             </ul>
           </div>

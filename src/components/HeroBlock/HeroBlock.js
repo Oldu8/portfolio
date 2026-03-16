@@ -15,7 +15,7 @@ const HeroBlock = () => {
             <img src={avatar} className={styles.img} alt="my avatar"></img>
           </div>
           <p className={styles.description}>
-            I'm a Full Stack Engineer with 4+ years of experience - specializing
+            I'm a Full Stack Engineer with 5 years of experience - specializing
             in creating scalable, user-focused web applications.
             <br />
             I'm ukrainian, currently live in Oviedo, Spain. Open to

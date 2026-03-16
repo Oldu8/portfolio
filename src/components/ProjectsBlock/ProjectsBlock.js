@@ -11,7 +11,7 @@ const ProjectsBlock = () => {
         <h2 className={styles.title}>My projects portfolio</h2>
         <p className={styles.description}>
           I don't have much times for creating projects all the time. But here
-          what i've done for last 3-4 years. So, some of them I did for
+          what i've done for last 5 years. So, some of them I did for
           interview task or to learn technologies. And only some of them to have
           fun, I think this is most valuable and interesting ones. Im talking
           about extension AdsToArt, GPS calculator and Sea battle board game.
